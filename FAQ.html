@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #000;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fafafa;
+  font-size: 18px;
+font-family: Montserrat;
+font-weight: 200;
+line-height: 1.25;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+ul {
+column-count: 2;
+}
+</style>
+</head>
+<body>
+
+<button class="accordion">How much does it cost to book Reagan Leonard Music?</button>
+<div class="panel">
+&nbsp
+  <p>Reagan has a minimum performance fee of $500. Typically, his prices range from <b>$500-$3000</b> depending on the event type, duration, travel, and other circumstances. For more information, please see <a href="https://reaganleonardmusic.com/pricing" target="_blank">the pricing page.</a></p>
+&nbsp
+<p>If the pricing page doesn't answer your question or if you'd like to receive a custom quote for your event, please contact Reagan via the contact form at the bottom of this page!</p>
+&nbsp
+</div>
+
+<button class="accordion">What kinds of events does Reagan typically play? Will he perform at my event?</button>
+<div class="panel">
+&nbsp
+  <p>Reagan plays all sorts of events and is open to just about anything. However, he specializes in weddings, corporate events, and private parties.</p>
+&nbsp
+<p>If you're wondering if he'll perform at your event...as long as he is available and you have a healthy entertainment budget, the answer is almost certainly yes!</p>
+&nbsp
+</div>
+
+<button class="accordion">What songs does Reagan play?</button>
+<div class="panel">
+&nbsp
+<p><b>Reagan can play just about anything if given enough advance notice!</b> His current repertoire is shown on the <a href="https://reaganleonardmusic.com/song-list" target="_blank">Song List</a> page.</p>
+&nbsp
+</div>
+
+<button class="accordion">Does Reagan supply his own equipment?</button>
+<div class="panel">
+&nbsp
+  <p>Yes! One of the best parts about hiring Reagan for your event is that all he needs is an outlet/extension cord nearby; he takes care of the rest. Reagan's full setup provides a huge amount of sound that will rock any venue, indoor or outdoor, up to 500 people!</p>
+&nbsp
+<p>Reagan's full setup includes: 1 Bose L1 Compact System, a mic and mic stand, a Boss RC-30 looper (upon request), and all the necessary cables. He performs with a Takamine acoustic guitar.</p>
+&nbsp
+</div>
+
+<button class="accordion">Where is Reagan willing to perform? How far will he travel?</button>
+<div class="panel">
+&nbsp
+  <p>Reagan Leonard is currently based in Greer, SC. However, he is willing to travel up to 500 miles for a performance!</p>
+&nbsp
+<p>(There is a flat fee of $100/hr for anything beyond 1 hour of round-trip travel. Please see <a href="https://reaganleonardmusic.com/pricing" target="_blank">the pricing page</a> or contact Reagan for more info.)</p>
+&nbsp
+</div>
+
+<button class="accordion">How long of a performance can Reagan put on?</button>
+<div class="panel">
+&nbsp
+  <p>Reagan can perform for up to 5 hours (with a 10 to 15-minute break for every hour played). Most of his performances range from 2-3 hours but he is absolutely willing to play for more or less time if needed.</p>
+&nbsp
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
