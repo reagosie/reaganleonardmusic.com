@@ -1,0 +1,23 @@
+{
+ "siteMeta": {
+  "GAId": "-",
+  "version": 201,
+  "template": "don",
+  "metaTitle": "Reagan Leonard - Acoustic Musician - Greenville, SC",
+  "customMeta": "<link rel=\"stylesheet\" href=\"https://srv1015-files.hstgr.io/b48071fee3e95af8/files/carousel.css\">\n\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-17134305700\">\n</script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-17134305700');\n</script>\n",
+  "ogImageAlt": "",
+  "faviconPath": "rlm_logo_icon-01-AVLD7aoM3Qckg2eY.jpg",
+  "ogImagePath": "link_preview-mP4XOM8OGgibEMo2.jpg",
+  "defaultLocale": "system",
+  "faviconOrigin": "assets",
+  "ogImageOrigin": "assets",
+  "googleAnalytics": "G-Q4JZ91TEGB",
+  "googleTagManager": "GTM-WNPC2JM",
+  "customBodyElements": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-17134305700\">\n</script><script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-17134305700');\n</script>",
+  "customHeadElements": "<link rel=\"stylesheet\" href=\"https://srv1015-files.hstgr.io/b48071fee3e95af8/files/carousel.css\">",
+  "stripePublicApiKey": "",
+  "isPrivateModeActive": false,
+  "demoEcommerceStoreId": "demo_01G0E9P2R0CFTNBWEEFCEV8EG5",
+  "shouldAddWWWPrefixToDomain": false
+ }
+}

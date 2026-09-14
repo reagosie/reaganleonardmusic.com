@@ -1,0 +1,58 @@
+# reaganleonardmusic.com — Apache configuration
+#
+# Reproduces the URL behaviour of the old builder-hosted site:
+#   • http://  → https://                (301)
+#   • www.     → apex domain             (301)
+#   • /pricing → pricing.html            (extensionless URLs, no trailing slash)
+#   • unknown paths → 404.html
+
+RewriteEngine On
+
+# Force HTTPS and the bare domain (both were 301s on the old site).
+# Only for the real domain, so the site can be tested on a temporary
+# Hostinger domain without being bounced to the live one.
+RewriteCond %{HTTP_HOST} ^(www\.)?reaganleonardmusic\.com$ [NC]
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://reaganleonardmusic.com%{REQUEST_URI} [L,R=301]
+
+# Serve /page from page.html when the file exists
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^([^/.]+)$ $1.html [L]
+
+ErrorDocument 404 /404.html
+
+# No directory listings
+Options -Indexes
+
+# The reviews refresh job (refresh-reviews.php) reads its Google API key from
+# reviews-config.json. Never serve that file, wherever it is placed.
+<Files "reviews-config.json">
+  Require all denied
+</Files>
+
+# Long-lived caching for versioned static assets; HTML always revalidates
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/avif  "access plus 1 year"
+  ExpiresByType image/webp  "access plus 1 year"
+  ExpiresByType image/jpeg  "access plus 1 year"
+  ExpiresByType image/png   "access plus 1 year"
+  ExpiresByType font/woff2  "access plus 1 year"
+  ExpiresByType text/css    "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType application/json "access plus 1 day"
+  ExpiresByType text/html   "access plus 0 seconds"
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType image/avif .avif
+  AddType image/webp .webp
+  AddType font/woff2 .woff2
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>

@@ -1,0 +1,28 @@
+PAGE: photos-videos   (id=zXYSAS, slug='photos-videos', name='Photos + Videos')
+  title      : Photos and Videos - Reagan Leonard Music
+  description: See some photos and videos of Reagan Leonard performing live in Greenville, Spartanburg, Charlotte, Asheville, and throughout the entirety of the southeast!
+  keywords   : ['Photos', 'Videos', 'Media']
+  focusKeyword: Photos
+  noindex    : False
+
+==============================================================================
+BLOCK zPqKY-  type=BlockLayout  slot=(body)  htmlId=
+  background: gradient rgb(221, 221, 221)
+  desktop minHeight=1617 mobile minHeight=611
+    <GridTextBox> zc28fu  @(18,0) 1224x62
+        | Reagan Leonard Promo Reel
+    <GridVideo> zHGLYD  @(87,206) 812x457  src=https://www.youtube.com/embed/SgA_gRUz2J4?h=null&playlist=SgA_gRUz2J4&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0
+    <GridButton> zA74k6  @(584,515) 194x56  text='More Videos' href=/more-videos target=None
+    <GridGallery> zDBLjN  @(680,0) 1224x915  12 images, layout=grid, click=lightbox
+        - z82_5413-A3QrD4GvP2fZxN2r.jpg  alt=''
+        - pxl_20230716_191058297.portrait-A3QaNbLgLotG68qN.jpg  alt=''
+        - 8efcef45-62c3-45f4-98c4-8370e01d1792-m2Wo1egEl1Cog3JP.jpg  alt=''
+        - img-Yg22DoZ6EwuaoMN1.jpg  alt=''
+        - z82_5728-Aq2NDXw3pLfNZbpZ.jpg  alt=''
+        - poe1-mk3lKDzkLPCvv8Bv.jpg  alt=''
+        - img-m6LL6lEQMwfvxE1N.jpg  alt=''
+        - z82_5602-YX4zB9EvjDc0opq0.jpg  alt=''
+        - z82_5630-m7VkejG6DOs7w37L.jpg  alt=''
+        - cropped-YbNNK7rQ3eCWbGOQ.jpg  alt=''
+        - pxl_20230716_191002135-Yg2LboZ8OyTGRlqB.jpg  alt=''
+        - img-AzGG6JGQpWie8oMD.jpg  alt=''

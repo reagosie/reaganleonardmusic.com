@@ -1,0 +1,7 @@
+https://pagespeed.web.dev/analysis/https-reaganleonardmusic-com/agpm4pgbl0?form_factor=mobile
+
+https://pagespeed.web.dev/analysis/https-reaganleonardmusic-com/agpm4pgbl0?form_factor=desktop
+
+
+Lighthouse (idk if this worked)
+https://lighthouse-metrics.com/lighthouse/checks/3351ca51-6359-4967-aa07-ea82184d1250

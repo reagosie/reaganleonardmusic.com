@@ -1,0 +1,25 @@
+PAGE: corporate   (id=zzjMM5, slug='corporate', name='Corporate')
+  title      : Corporate Event Entertainment - Greenville, SC
+  description: Reagan Leonard provides superior quality live music in Greenville, SC for all types of corporate events. If you are looking for phenomenal corporate event entertainment, message him today for a free quote!
+  keywords   : ['Corporate', 'Corporate Event', 'Musician']
+  focusKeyword: Corporate
+  noindex    : False
+
+==============================================================================
+BLOCK zd_P6s  type=BlockLayout  slot=(body)  htmlId=
+  background: image rgb(222, 216, 192)
+  desktop minHeight=754 mobile minHeight=880
+    <GridTextBox> z3_X_A  @(24,0) 1224x108
+        | Corporate Events
+    <GridEmbed> zg0x4z  @(184,0) 709x301  [custom HTML, 1381 chars]
+    <GridImage> z7CNMB  @(185,800) 424x535  path=poe1-mk3lKDzkLPCvv8Bv.jpg
+        alt=''  fullRes=1440x2160
+    <GridButton> z3WD9x  @(504,206) 297x50  text='Contact Me to Learn More!' href=#request-quote target=_self
+
+==============================================================================
+BLOCK zDihyS  type=BlockLayout  slot=(body)  htmlId=
+  background: color rgb(255, 255, 255)
+  desktop minHeight=260 mobile minHeight=140
+    <GridTextBox> zHUKqO  @(24,206) 812x52
+        | BRANDS I'VE PARTNERED WITH...
+    <GridEmbed> zPR9hD  @(80,0) 1224x150  [custom HTML, 10622 chars]

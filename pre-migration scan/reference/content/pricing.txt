@@ -1,0 +1,19 @@
+PAGE: pricing   (id=z9zgOI, slug='pricing', name='Pricing')
+  title      : Pricing - Reagan Leonard Music
+  description: Wondering if live music will break the bank? Don't worry! Reagan offers full transparency on his pricing on this page and will be happy to answer any further questions about cost if this doesn't answer them for you.
+  keywords   : ['Pricing', 'Cost', 'Quote']
+  focusKeyword: Pricing
+  noindex    : False
+
+==============================================================================
+BLOCK z0z9oF  type=BlockLayout  slot=(body)  htmlId=
+  background: color rgb(20, 46, 20)
+  desktop minHeight=439 mobile minHeight=635
+    <GridTextBox> z-l2dx  @(14,0) 612x62
+        | Pricing
+    <GridImage> zgAfTn  @(14,669) 555x370  path=z82_5452-m5KrZgGqwgiPO5jn.jpg
+        alt=''  fullRes=1600x1067
+    <GridTextBox> z1Od5j  @(120,0) 647x236
+        | Reagan's prices start at $500.
+        | He generally charges $250/hr for performing and $100/hr for travel (first hour of round-trip travel is free).
+        | You can see more detailed prices for his wedding packages on the Weddings page.

@@ -1,0 +1,27 @@
+PAGE: welcome   (id=zLj3dE, slug='welcome', name='Ad Landing Page')
+  title      : Welcome - Reagan Leonard Music
+  description: Welcome! This page is a landing page for potential clients who come to my website from an online advertisement. This page should give you everything you need to know about my services in one quick glance.
+  keywords   : ['Welcome', 'Landing Page']
+  focusKeyword: Welcome
+  noindex    : True
+
+==============================================================================
+BLOCK zLr-yN  type=BlockLayout  slot=(body)  htmlId=
+  background: color rgb(20, 46, 20)
+  desktop minHeight=1421 mobile minHeight=1286
+    <GridTextBox> zEJxX8  @(27,154) 915x293
+        | Live Acoustic Music for Weddings & Events
+        | Experienced. Professional. Memorable.
+        | 300+ Events • 15+ Years of Experience • Based in Greenville, SC
+        | Wedding Ceremonies • Cocktail Hours • Private Parties • Corporate Events
+    <GridButton> zWPIzA  @(362,309) 606x104  text='Check Availability' href=/welcome#check-availability target=_self
+    <GridEmbed> z951ZE  @(508,0) 1224x430  [Elfsight, 139 chars]
+    <GridVideo> zWVEu9  @(956,236) 751x422  src=https://www.youtube.com/embed/SgA_gRUz2J4?h=null&playlist=SgA_gRUz2J4&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0
+
+==============================================================================
+BLOCK zp1RqX  type=BlockLayout  slot=(body)  htmlId=check-availability
+  background: color rgb(221, 221, 221)
+  desktop minHeight=1243 mobile minHeight=1323
+    <GridEmbed> z3i3sO  @(0,0) 1224x155  [JotForm, 94 chars]
+    <GridTextBox> z_UJ83  @(15,283) 658x40
+        | Enter your event details below!

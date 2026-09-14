@@ -1,0 +1,84 @@
+<!-- #shell:header start -->
+<!--
+  Site header — shared by every page (kept byte-identical across files).
+  To change the nav: edit here, then run  py tools/sync-shell.py
+  The generator marks the current page's link with "item-content-wrapper--active".
+
+  "Check availability" buttons carry data-cta: site.js points them at the
+  booking form on the same page (#request-quote) when the page has one,
+  otherwise they go to /contact#request-quote.
+  The .cta-bar is the fixed bar at the bottom of phone screens.
+-->
+<header class="block-header">
+  <div class="background"></div>
+
+  <!-- Desktop: logo left, links + button right -->
+  <div class="block-header-layout-desktop">
+    <a class="block-header-logo block-header__logo" href="/">
+      <picture>
+        <source type="image/avif" srcset="/assets/img/rlm-logo-full-white-375.avif 375w, /assets/img/rlm-logo-full-white-768.avif 768w" sizes="125px">
+        <source type="image/webp" srcset="/assets/img/rlm-logo-full-white-375.webp 375w, /assets/img/rlm-logo-full-white-768.webp 768w" sizes="125px">
+        <img class="block-header-logo__image"
+             src="/assets/img/rlm-logo-full-white-375.png"
+             srcset="/assets/img/rlm-logo-full-white-375.png 375w, /assets/img/rlm-logo-full-white-768.png 768w"
+             sizes="125px" width="375" height="248"
+             alt="Reagan Leonard Music">
+      </picture>
+    </a>
+    <nav class="block-header__nav" aria-label="Main">
+      <ul class="block-header__nav-links">
+        <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/">Home</a></div></li>
+        <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/weddings">Weddings</a></div></li>
+        <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/corporate">Corporate</a></div></li>
+        <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/pricing">Pricing</a></div></li>
+        <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/song-list">Song List</a></div></li>
+        <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/photos-videos">Photos + Videos</a></div></li>
+        <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/faq">FAQ</a></div></li>
+      </ul>
+    </nav>
+    <div class="block-header__cta">
+      <a class="btn btn--primary btn--small" href="/contact#request-quote" data-cta>Check availability</a>
+    </div>
+  </div>
+
+  <!-- Mobile (≤920px): logo + hamburger, links drop down underneath -->
+  <div class="block-header-layout-mobile">
+    <a class="block-header-logo block-header__logo" href="/">
+      <picture>
+        <source type="image/avif" srcset="/assets/img/rlm-logo-full-white-375.avif">
+        <source type="image/webp" srcset="/assets/img/rlm-logo-full-white-375.webp">
+        <img class="block-header-logo__image"
+             src="/assets/img/rlm-logo-full-white-375.png"
+             width="375" height="248"
+             alt="Reagan Leonard Music">
+      </picture>
+    </a>
+    <button class="burger block-header__hamburger-menu" type="button" title="Menu"
+            aria-label="Menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="burger__bun"></span>
+      <span class="burger__meat"></span>
+      <span class="burger__bun"></span>
+    </button>
+    <div class="block-header-layout-mobile__dropdown" id="mobile-nav">
+      <nav class="block-header__nav" aria-label="Main">
+        <ul class="block-header__nav-links">
+          <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/">Home</a></div></li>
+          <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/weddings">Weddings</a></div></li>
+          <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/corporate">Corporate</a></div></li>
+          <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/pricing">Pricing</a></div></li>
+          <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/song-list">Song List</a></div></li>
+          <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/photos-videos">Photos + Videos</a></div></li>
+          <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/faq">FAQ</a></div></li>
+          <li class="block-header-item"><div class="item-content-wrapper"><a class="item-content" href="/contact">Contact</a></div></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- Phones only: always-visible booking bar at the bottom of the screen -->
+<div class="cta-bar">
+  <a class="btn btn--primary" href="/contact#request-quote" data-cta>Check availability</a>
+  <a class="btn btn--ghost" href="tel:+18647065104">Call</a>
+</div>
+<!-- #shell:header end -->

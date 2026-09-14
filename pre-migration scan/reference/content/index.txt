@@ -1,0 +1,85 @@
+PAGE: index   (id=home, slug='', name='Home')
+  title      : Greenville SC Musician for Weddings & Events
+  description: Discover the perfect live music for your special occasion! I'm a solo acoustic guitarist based in Greenville, SC and I offer versatile music for weddings, parties, corporate events, and any other private event you can think of! Greenville SC musician, will travel anywhere in SC, NC, GA, or TN
+  keywords   : ['Greenville SC musician', 'wedding music', 'music for private events']
+  focusKeyword: Greenville SC musician
+  noindex    : False
+
+==============================================================================
+BLOCK block0  type=BlockLayout  slot=(body)  htmlId=
+  background: image backgroundtest-m2Wr2ka6jQfKpp9e.jpg
+  desktop minHeight=876 mobile minHeight=451
+    <GridTextBox> element_uajUCLg5iDt0Ui6zyHAUo  @(80,103) 503x125
+        | From cocktail hour to upbeat rock'n'roll, Reagan's savory voice and versatile song selection make him the perfect choice for your upcoming party, wedding, or corporate event!
+    <GridTextBox> headerText1  @(296,116) 478x298
+        | Reagan Leonard Music
+    <GridButton> zoecAR  @(648,206) 297x56  text='Request a free quote!' href=/contact target=_self
+
+==============================================================================
+BLOCK zucsmX  type=BlockLayout  slot=(body)  htmlId=
+  background: color rgb(255, 255, 255)
+  desktop minHeight=576 mobile minHeight=586
+    <GridImage> zanzhN  @(40,624) 600x499  path=z82_5728-AGBG1q34xyFB80yl.jpg
+        alt=''  fullRes=1062x912
+        click=None href=None
+    <GridTextBox> zJIfBw  @(93,74) 459x211
+        | Give your guests a night to remember
+    <GridTextBox> zUvReD  @(360,77) 453x125
+        | Reagan is the performer that will make your event the one that people rave about. Book your free consultation today!
+
+==============================================================================
+BLOCK zRfwn1  type=BlockLayout  slot=(body)  htmlId=
+  background: color rgb(181, 181, 181)
+  desktop minHeight=548 mobile minHeight=920
+    <GridImage> zWJq7B  @(14,145) 329x508  path=z82_5321-m5Kv4Prlq5Fznzxk.jpg
+        alt=''  fullRes=1067x1600
+        click=None href=None
+    <GridTextBox> zp0J6b  @(80,624) 600x72
+        | MEET REAGAN
+    <GridTextBox> zFbe0l  @(200,624) 600x234
+        | Reagan Leonard is a local professional musician born and raised in Spartanburg, SC. He has played 300+ gigs in SC, NC, GA, and TN over his 15-year playing career. He performs solo, playing mostly acoustic covers of pop, folk, and rock songs from the 60s-current day. If you're looking to hear anything from Jack Johnson & The Lumineers, Ed Sheeran & John Mayer, Chris Stapleton & Johnny Cash, all the way to Led Zeppelin & The Rolling Stones, you might love Reagan Leonard.
+
+==============================================================================
+BLOCK z50-so  type=BlockLayout  slot=(body)  htmlId=
+  background: color rgb(255, 255, 255)
+  desktop minHeight=298 mobile minHeight=599
+    <GridTextBox> zTCCm1  @(40,0) 1224x54
+        | WORKING WITH REAGAN IS EASY
+    <GridTextBox> zbWU6Q  @(120,0) 400x124
+        | BOOK A FREE CONSULTATION
+        | Book a free 15-minute consultation to chat about your event and determine how Reagan can best serve you
+    <GridImage> z5YAAa  @(120,14) 62x56  path=phone-AwvE2ORXbgINrxz5.jpg
+        alt=''  fullRes=990x1000
+    <GridTextBox> zLlGyV  @(120,412) 400x124
+        | CREATE YOUR CUSTOM SONG LIST
+        | Reagan will help you create the perfect soundtrack for your event and will make sure to include your specific song requests
+    <GridTextBox> zTLk2M  @(120,824) 400x124
+        | CREATE LIFELONG MEMORIES
+        | Enjoy the magic of live music as Reagan provides a uniquely crafted atmosphere that your guests will remember forever
+    <GridImage> zFGAIv  @(120,824) 59x59  path=smile-mePOry7xZeu3z1Xq.png
+        alt=''  fullRes=512x512
+    <GridImage> zMgPQr  @(130,429) 74x49  path=list-mv0k8LG3wJck6Ejp.png
+        alt=''  fullRes=512x512
+
+==============================================================================
+BLOCK zhMCYs  type=BlockLayout  slot=(body)  htmlId=
+  background: image img-AzGG6JGQpWie8oMD.jpg
+  desktop minHeight=504 mobile minHeight=669
+    <GridEmbed> zO4dpY  @(24,11) 1213x154  [Elfsight, 139 chars]
+
+==============================================================================
+BLOCK zWE9b-  type=BlockLayout  slot=(body)  htmlId=
+  background: color rgb(255, 255, 255)
+  desktop minHeight=240 mobile minHeight=20
+    <GridTextBox> zADTJO  @(13,103) 1018x52
+        | BRANDS I'VE PARTNERED WITH...
+    <GridEmbed> z98ieM  @(65,0) 1224x150  [custom HTML, 10622 chars]
+
+==============================================================================
+BLOCK zbK3W_  type=BlockLayout  slot=(body)  htmlId=
+  background: image rgb(255, 255, 255)
+  desktop minHeight=629 mobile minHeight=412
+    <GridTextBox> zrvTBB  @(39,309) 606x81
+        | YOU BE THE JUDGE...
+        | Don't take their word for it...hear for yourself!
+    <GridVideo> zQons2  @(144,206) 812x456  src=https://www.youtube.com/embed/SgA_gRUz2J4?h=null&playlist=SgA_gRUz2J4&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0

@@ -1,0 +1,107 @@
+PAGE: preferred-vendors   (id=z9ryno, slug='preferred-vendors', name='Preferred Vendors')
+  title      : 
+  description: This page contains a list of the preferred vendors that Reagan recommends for other wedding services. I may not have necessarily worked with them before, but if you are overwhelmed with options and need a place to start...start here!
+  keywords   : ['Preferred Vendors', 'Vendors', 'Alternatives']
+  focusKeyword: Preferred Vendors
+  noindex    : True
+
+==============================================================================
+BLOCK znfCjg  type=BlockLayout  slot=(body)  htmlId=
+  background: color rgb(255, 255, 255)
+  desktop minHeight=2373 mobile minHeight=2246
+    <GridTextBox> zAcAgc  @(24,103) 1018x62
+        | Preferred Vendors
+    <GridTextBox> zoQKT4  @(112,0) 1224x94
+        | Below is a list of some vendors that I have met with and I admire their work.
+        | I may not have necessarily worked with them before, but if you are overwhelmed with options and need a place to start...start here!
+    <GridTextBox> zHAhHR  @(213,103) 1018x31
+        | Venues
+    <GridTextBox> ztBcEF  @(254,0) 612x711
+        | South Wind Ranch
+        | https://www.southwindranchtr.com/
+        | Ron@SouthWindRanchTR.com
+        | The Gathering Farm
+        | https://thegatheringvenues.com/
+        | events@thegatheringvenues.com
+        | Bent Creek Farm
+        | https://bentcreekfarm.us/
+        | bentckfarm@gmail.com
+        | Events at Old Paths Farm
+        | https://www.oldpathsfarm.com/
+        | eventsmanager@oldpathsfarm.com
+        | The Venue at Rose Springs Farm
+        | https://www.rosespringsfarm.com/
+        | Edinburgh West
+        | https://www.edinburghwest.com/
+        | EventsatEdinburghWest@gmail.com
+    <GridTextBox> zSyJ3c  @(254,612) 612x700
+        | Historic Greer Depot
+        | https://historicgreerdepot.com/
+        | reservation@historicgreerdepot.com
+        | Duncan Estate
+        | https://duncanestate.com/
+        | Gassaway Mansion
+        | https://www.gassawaymansion.com/
+        | GassawayMansion@gmail.com
+        | Historic Hampton House 1908
+        | https://www.hhh1908.com/
+        | info@hhh1908.com
+        | Historic Hopkins Farm
+        | https://www.historichopkinsfarm.com/
+        | hcannon.hopkinsfarm@gmail.com
+        | The Barn at Whippoorwill Farm
+        | https://www.whippoorwill.farm/
+        | janetrosman2@gmail.com
+    <GridTextBox> zMlKaX  @(993,103) 1018x31
+        | Planners/Coordinators
+    <GridTextBox> zPjmIv  @(1040,0) 612x374
+        | Something New Event Planning
+        | https://www.facebook.com/SomethingNewEventsSC
+        | SomethingNewEventsSC@gmail.com
+        | Golden Forest Events
+        | https://www.goldenforestevents.com/
+        | info@goldenforestevents.com
+        | One Fine Day
+        | https://www.onefinedaysc.com/
+        | onefinedaysc@yahoo.com
+    <GridTextBox> zN6m7K  @(1040,612) 612x243
+        | Dalin & Co. Events
+        | https://www.dalincoevents.com/
+        | emilee@dalincoevents.com
+        | Owens Weddings
+        | https://www.owensweddings.com/
+        | info@owensweddings.com
+    <GridTextBox> zr_ESF  @(1440,103) 1018x31
+        | Photographers
+    <GridTextBox> zS6MVp  @(1480,0) 612x371
+        | Maribel H. Photography
+        | maribelhphotos.com
+        | MaribelH.photograpy@gmail.com
+        | Christina Armani Photography
+        | christinaarmaniphotography.com
+        | christinaarmaniphotography@gmail.com
+        | A Classy Touch Photography
+        | https://www.facebook.com/aclassytouchphotography/
+        | aclassytouchphotography@gmail.com
+    <GridTextBox> zbUSM2  @(1480,618) 606x245
+        | Desiree Gray Photography
+        | desireeaphotography.mypixieset.com
+        | Dartechi87@gmail.com
+        | James Le
+        | https://www.jdlmediaclt.com/
+        | James@jdlmediaclt.com
+    <GridTextBox> z8ZuQm  @(1880,103) 1018x31
+        | Videographers
+    <GridTextBox> zCv95L  @(1920,103) 1018x110
+        | Weaver Wedding Films
+        | https://www.weaverweddingfilms.com/
+        | jen@weaverweddingfilms.com
+    <GridTextBox> z5pach  @(2049,94) 1018x31
+        | Other Musicians
+    <GridTextBox> zwfsgE  @(2090,103) 1018x239
+        | Carolina Music Planner
+        | https://www.carolinamusicplanner.com/
+        | megan@carolinamusicplanner.com
+        | Evelyn Gagnon
+        | https://evelyngagnon.com/
+        | evelyn@evelyngagnon.com

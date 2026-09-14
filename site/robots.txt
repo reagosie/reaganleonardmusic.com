@@ -1,0 +1,4 @@
+Sitemap: https://reaganleonardmusic.com/sitemap.xml
+
+User-agent: *
+Disallow:

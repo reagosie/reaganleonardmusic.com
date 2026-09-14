@@ -1,0 +1,1516 @@
+{
+ "pageData": {
+  "pages": {
+   "home": {
+    "meta": {
+     "title": "Greenville SC Musician for Weddings & Events",
+     "noindex": false,
+     "keywords": [
+      "Greenville SC musician",
+      "wedding music",
+      "music for private events"
+     ],
+     "description": "Discover the perfect live music for your special occasion! I'm a solo acoustic guitarist based in Greenville, SC and I offer versatile music for weddings, parties, corporate events, and any other private event you can think of! Greenville SC musician, will travel anywhere in SC, NC, GA, or TN",
+     "focusKeyword": "Greenville SC musician"
+    },
+    "name": "Home",
+    "slug": "",
+    "type": "default",
+    "blocks": [
+     "block0",
+     "zucsmX",
+     "zRfwn1",
+     "z50-so",
+     "zhMCYs",
+     "zWE9b-",
+     "zbK3W_"
+    ],
+    "hiddenSlots": []
+   },
+   "z7QSPy": {
+    "type": "default",
+    "name": "Thank You",
+    "slug": "thank-you"
+   },
+   "z9ryno": {
+    "type": "default",
+    "name": "Preferred Vendors",
+    "slug": "preferred-vendors"
+   },
+   "z9zgOI": {
+    "type": "default",
+    "name": "Pricing",
+    "slug": "pricing"
+   },
+   "zLj3dE": {
+    "type": "default",
+    "name": "Ad Landing Page",
+    "slug": "welcome"
+   },
+   "zXYSAS": {
+    "type": "default",
+    "name": "Photos + Videos",
+    "slug": "photos-videos"
+   },
+   "zjcXCC": {
+    "type": "default",
+    "name": "FAQ",
+    "slug": "faq"
+   },
+   "znXbGi": {
+    "type": "default",
+    "name": "Wedding Show Contact Form",
+    "slug": "wedding-show-form"
+   },
+   "znaRf3": {
+    "type": "default",
+    "name": "More Videos",
+    "slug": "more-videos"
+   },
+   "zqx6tW": {
+    "type": "default",
+    "name": "Song List",
+    "slug": "song-list"
+   },
+   "zzjMM5": {
+    "type": "default",
+    "name": "Corporate",
+    "slug": "corporate"
+   },
+   "page_b12zuv2erKHFxIMWIh2zL": {
+    "type": "default",
+    "name": "Contact",
+    "slug": "contact"
+   },
+   "page_uS8dGgEmmLJ9HDS2fOXPo": {
+    "type": "default",
+    "name": "Weddings",
+    "slug": "weddings"
+   }
+  },
+  "blocks": {
+   "block0": {
+    "type": "BlockLayout",
+    "mobile": {
+     "minHeight": 451
+    },
+    "desktop": {
+     "minHeight": 876
+    },
+    "settings": {
+     "styles": {
+      "rows": 12,
+      "width": "1224px",
+      "m-rows": "8",
+      "row-gap": "16px",
+      "row-size": "48px",
+      "column-gap": "24px",
+      "block-padding": "16px 0",
+      "m-block-padding": "24px 16px 27px 16px",
+      "oldContentWidth": "1600px"
+     }
+    },
+    "zindexes": [
+     "headerText1",
+     "element_uajUCLg5iDt0Ui6zyHAUo",
+     "zoecAR"
+    ],
+    "attachment": "unset",
+    "background": {
+     "path": "backgroundtest-m2Wr2ka6jQfKpp9e.jpg",
+     "image": "https://assets.zyrosite.com/Yg2xxNENX5FGqrpg/backgroundtest-m2Wr2ka6jQfKpp9e.jpg",
+     "origin": "assets",
+     "current": "image",
+     "overlay-opacity": "0.10"
+    },
+    "components": [
+     "headerText1",
+     "element_uajUCLg5iDt0Ui6zyHAUo",
+     "zoecAR"
+    ],
+    "isMobileAutoPositioningEnabled": true
+   },
+   "header": {
+    "slot": "header",
+    "type": "BlockNavigation",
+    "mobile": {
+     "height": 77,
+     "logoHeight": 67
+    },
+    "desktop": {
+     "height": 93,
+     "logoHeight": 83
+    },
+    "settings": {
+     "styles": {
+      "width": "1240px",
+      "padding": "5px 16px 5px 16px",
+      "logo-width": "125px",
+      "cartIconSize": "24px",
+      "link-spacing": "50px",
+      "m-logo-width": "100px",
+      "element-spacing": "33px",
+      "contrastBackgroundColor": "rgb(39, 89, 39)"
+     },
+     "cartText": "Shopping bag",
+     "isSticky": true,
+     "showLogo": true,
+     "headerLayout": "desktop-1",
+     "isCartVisible": true,
+     "logoImagePath": "rlm_logo_full-03-dWxMlyxq6VSgQxzK.png",
+     "mHeaderLayout": "mobile-1",
+     "logoImageOrigin": "assets",
+     "mobileLinksAlignment": "right"
+    },
+    "zindexes": [],
+    "background": {
+     "color": "rgb(20, 46, 20)",
+     "current": "color",
+     "isTransparent": false,
+     "temporaryBackground": {
+      "color": "transparent",
+      "current": "color",
+      "isTransparent": true
+     }
+    },
+    "components": [],
+    "logoAspectRatio": 1.512962962962963,
+    "navLinkTextColor": "rgb(255, 255, 255)",
+    "navLinkTextColorHover": "rgb(255, 255, 255)"
+   },
+   "z50-so": {
+    "type": "BlockLayout",
+    "mobile": {
+     "minHeight": 599
+    },
+    "desktop": {
+     "minHeight": 298
+    },
+    "settings": {
+     "styles": {
+      "rows": 5,
+      "row-gap": "16px",
+      "row-size": "48px",
+      "column-gap": "24px",
+      "block-padding": "16px 0",
+      "m-block-padding": "25px 16px 30px 16px"
+     }
+    },
+    "zindexes": [
+     "zTCCm1",
+     "zbWU6Q",
+     "zLlGyV",
+     "zTLk2M",
+     "z5YAAa",
+     "zMgPQr",
+     "zFGAIv"
+    ],
+    "background": {
+     "color": "rgb(255, 255, 255)",
+     "current": "color"
+    },
+    "components": [
+     "zTCCm1",
+     "zbWU6Q",
+     "zLlGyV",
+     "zTLk2M",
+     "z5YAAa",
+     "zMgPQr",
+     "zFGAIv"
+    ]
+   },
+   "zRfwn1": {
+    "type": "BlockLayout",
+    "mobile": {
+     "minHeight": 920
+    },
+    "desktop": {
+     "minHeight": 548
+    },
+    "settings": {
+     "styles": {
+      "rows": 10,
+      "width": "1224px",
+      "row-gap": "16px",
+      "row-size": "48px",
+      "column-gap": "24px",
+      "block-padding": "16px 0px 16px 0px",
+      "m-block-padding": "40px 16px 40px 16px",
+      "oldContentWidth": "1600px"
+     }
+    },
+    "zindexes": [
+     "zp0J6b",
+     "zFbe0l",
+     "zWJq7B"
+    ],
+    "background": {
+     "color": "rgb(181, 181, 181)",
+     "current": "color"
+    },
+    "components": [
+     "zp0J6b",
+     "zFbe0l",
+     "zWJq7B"
+    ]
+   },
+   "zWE9b-": {
+    "type": "BlockLayout",
+    "mobile": {
+     "minHeight": 20
+    },
+    "desktop": {
+     "minHeight": 240
+    },
+    "settings": {
+     "styles": {
+      "block-padding": "16px 0 16px 0",
+      "m-block-padding": "16px"
+     }
+    },
+    "zindexes": [
+     "zADTJO",
+     "z98ieM"
+    ],
+    "background": {
+     "color": "rgb(255, 255, 255)",
+     "current": "color"
+    },
+    "components": [
+     "zADTJO",
+     "z98ieM"
+    ]
+   },
+   "zbK3W_": {
+    "type": "BlockLayout",
+    "mobile": {
+     "minHeight": 412
+    },
+    "desktop": {
+     "minHeight": 629
+    },
+    "settings": {
+     "styles": {
+      "block-padding": "16px 0 16px 0",
+      "m-block-padding": "16px"
+     }
+    },
+    "zindexes": [
+     "zQons2",
+     "zrvTBB"
+    ],
+    "attachment": "fixed",
+    "background": {
+     "path": "z82_5452-m5KrZgGqwgiPO5jn.jpg",
+     "color": "rgb(255, 255, 255)",
+     "image": "https://assets.zyrosite.com/Yg2xxNENX5FGqrpg/z82_5452-m5KrZgGqwgiPO5jn.jpg",
+     "origin": "assets",
+     "current": "image",
+     "overlay-opacity": "0.25"
+    },
+    "components": [
+     "zQons2",
+     "zrvTBB"
+    ],
+    "backgroundImagePosition": "center"
+   },
+   "zhMCYs": {
+    "type": "BlockLayout",
+    "mobile": {
+     "minHeight": 669
+    },
+    "desktop": {
+     "minHeight": 504
+    },
+    "settings": {
+     "styles": {
+      "block-padding": "16px 0 16px 0",
+      "m-block-padding": "16px"
+     }
+    },
+    "zindexes": [
+     "zO4dpY"
+    ],
+    "attachment": "fixed",
+    "background": {
+     "path": "img-AzGG6JGQpWie8oMD.jpg",
+     "image": "https://assets.zyrosite.com/Yg2xxNENX5FGqrpg/img-AzGG6JGQpWie8oMD.jpg",
+     "origin": "assets",
+     "current": "image",
+     "overlay-opacity": "0.35"
+    },
+    "components": [
+     "zO4dpY"
+    ]
+   },
+   "zucsmX": {
+    "type": "BlockLayout",
+    "mobile": {
+     "minHeight": 586
+    },
+    "desktop": {
+     "minHeight": 576
+    },
+    "settings": {
+     "styles": {
+      "rows": 10,
+      "width": "1224px",
+      "row-gap": "16px",
+      "row-size": "48px",
+      "column-gap": "24px",
+      "block-padding": "16px 0px 16px 0px",
+      "m-block-padding": "40px 16px 40px 16px",
+      "oldContentWidth": "1600px"
+     }
+    },
+    "zindexes": [
+     "zJIfBw",
+     "zUvReD",
+     "zanzhN"
+    ],
+    "background": {
+     "color": "rgb(255, 255, 255)",
+     "current": "color"
+    },
+    "components": [
+     "zJIfBw",
+     "zUvReD",
+     "zanzhN"
+    ]
+   },
+   "jlLCLyf0G-": {
+    "slot": "footer",
+    "type": "BlockLayout",
+    "htmlId": "request-quote",
+    "mobile": {
+     "minHeight": 2170
+    },
+    "desktop": {
+     "minHeight": 1685
+    },
+    "settings": {
+     "styles": {
+      "cols": "12",
+      "rows": 8,
+      "width": "1224px",
+      "m-rows": "1",
+      "col-gap": "24px",
+      "row-gap": "16px",
+      "row-size": "48px",
+      "column-gap": "24px",
+      "block-padding": "16px 0 16px 0",
+      "m-block-padding": "25px 16px 0px 16px",
+      "oldContentWidth": "1600px"
+     }
+    },
+    "zindexes": [
+     "zlCvGR",
+     "z0oAjD",
+     "zOAxvo",
+     "zRaMck",
+     "zzfAlM",
+     "C1nXrt9WLM",
+     "1dG3FzwEFj"
+    ],
+    "background": {
+     "color": "rgb(221, 221, 221)",
+     "current": "color"
+    },
+    "components": [
+     "C1nXrt9WLM",
+     "1dG3FzwEFj",
+     "zlCvGR",
+     "z0oAjD",
+     "zOAxvo",
+     "zRaMck",
+     "zzfAlM"
+    ]
+   }
+  },
+  "elements": {
+   "z0oAjD": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 9,
+     "left": 0,
+     "width": 328,
+     "height": 62
+    },
+    "content": "<h4 style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 24px; --fontSizeDesktop: 32px;\" dir=\"auto\"><span style=\"font-family: Montserrat; font-weight: 500;\"><strong>Check my availability for your event:</strong></span></h4>",
+    "desktop": {
+     "top": 22,
+     "left": 439,
+     "width": 745,
+     "height": 42
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "flex-start",
+      "m-element-margin": "0 0 16px 0"
+     }
+    }
+   },
+   "z5YAAa": {
+    "rel": "nofollow",
+    "type": "GridImage",
+    "mobile": {
+     "top": 113,
+     "left": 0,
+     "width": 50,
+     "height": 42
+    },
+    "desktop": {
+     "top": 120,
+     "left": 14,
+     "width": 62,
+     "height": 56
+    },
+    "settings": {
+     "alt": "",
+     "path": "phone-AwvE2ORXbgINrxz5.jpg",
+     "origin": "assets",
+     "styles": {
+      "align": "center",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     },
+     "target": "_self",
+     "clickAction": "none"
+    },
+    "fullResolutionWidth": 990,
+    "fullResolutionHeight": 1000
+   },
+   "z98ieM": {
+    "type": "GridEmbed",
+    "mobile": {
+     "top": 141,
+     "left": 0,
+     "width": 328,
+     "height": 150
+    },
+    "content": "\n\n\t\n\t\t<style>\n\t\t\t.wrapper {\n\t\t\t\theight: 150px;\n\t\t\t\toverflow: hidden;\n\t\t\t\tposition: relative;\n\t\t\t\twidth: 100%;\n\t\t\t\tdisplay: flex;\n\t\t\t\talign-items: center;\n\t\t\t\tpadding: 0 20px;\n\t\t\t}\n\t\t\t.wrapper:before, .wrapper:after {\n\t\t\t\tcontent: \"\";\n\t\t\t\tposition: absolute;\n\t\t\t\theight: 130px;\n\t\t\t\twidth: 150px;\n\t\t\t\tz-index: 2;\n\t\t\t}\n\t\t\t.wrapper:after {\n\t\t\t\tright: 0;\n\t\t\t\ttop: 0;\n\t\t\t\ttransform: rotateZ(180deg);\n\t\t\t}\n\t\t\t.wrapper:before {\n\t\t\t\tleft: 0;\n\t\t\t\ttop: 0;\n\t\t\t}\n\t\t\t.wrapper .track {\n\t\t\t\tdisplay: flex;\n\t\t\t\theight: 150px;\n\t\t\t\twidth: calc(150px * 10);\n\t\t\t\tanimation: scroll 150s linear infinite;\n\t\t\t}\n\t\t\t.wrapper .logo {\n\t\t\t\tdisplay: flex;\n\t\t\t\talign-items: center;\n\t\t\t\tpadding-left: 20px;\n\t\t\t\tpadding-right: 20px;\n\t\t\t}\n\t\t\t@keyframes  scroll {\n\t\t\t\tfrom {\n\t\t\t\t\ttransform: translateX(0);\n\t\t\t\t}\n\t\t\t\tto {\n\t\t\t\t\ttransform: translateX(calc(-150px * 50));\n\t\t\t\t}\n\t\t\t}\n\t\t</style>\n\t\n\t\n\t\t<div class=\"wrapper\">\n\t\t\t<div class=\"track\">\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=160,h=100,fit=crop/Yg2xxNENX5FGqrpg/bootbarn-m7V5Xy2kD3UMBDM9.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=110,fit=crop/Yg2xxNENX5FGqrpg/reids-YKbEg0PNXntba285.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=175,h=128,fit=crop/Yg2xxNENX5FGqrpg/toyota-YD0BXOrvN6ULBwqK.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=65,fit=crop/Yg2xxNENX5FGqrpg/maa-mp8qKkM7qOFq4xO0.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=100,fit=crop/Yg2xxNENX5FGqrpg/greystar-YX4ag82zy2ckVzlq.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=80,fit=crop/Yg2xxNENX5FGqrpg/tdsynnex-mePbKeyGg0F2NQqn.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=220,h=100,fit=crop/Yg2xxNENX5FGqrpg/palmettomoon-Yg2qKG756Ru1ZXDJ.jpg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=110,fit=crop/Yg2xxNENX5FGqrpg/grubb-AMqlgr2pZrCRBolK.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=150,h=150,fit=crop/Yg2xxNENX5FGqrpg/ushja-AzG3KRODMOT6OxXG.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=250,h=70,fit=crop/Yg2xxNENX5FGqrpg/southwood2-YanqKWMPKViO5yEq.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=230,h=100,fit=crop/Yg2xxNENX5FGqrpg/willow-bridge-YZ9xgPMXx9SMMVG9.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=250,h=65,fit=crop/Yg2xxNENX5FGqrpg/sesblc-A3QOVnjNL0sgRGDJ.webp\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=210,h=100,fit=crop/Yg2xxNENX5FGqrpg/steeples-Y4LxXylpv8iQ9Nyv.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=150,h=150,fit=crop/Yg2xxNENX5FGqrpg/carolinagolfclub-Yg2qKG75qRTZR4VW.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=160,h=100,fit=crop/Yg2xxNENX5FGqrpg/bootbarn-m7V5Xy2kD3UMBDM9.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=110,fit=crop/Yg2xxNENX5FGqrpg/reids-YKbEg0PNXntba285.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=175,h=128,fit=crop/Yg2xxNENX5FGqrpg/toyota-YD0BXOrvN6ULBwqK.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=65,fit=crop/Yg2xxNENX5FGqrpg/maa-mp8qKkM7qOFq4xO0.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=100,fit=crop/Yg2xxNENX5FGqrpg/greystar-YX4ag82zy2ckVzlq.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=80,fit=crop/Yg2xxNENX5FGqrpg/tdsynnex-mePbKeyGg0F2NQqn.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=220,h=100,fit=crop/Yg2xxNENX5FGqrpg/palmettomoon-Yg2qKG756Ru1ZXDJ.jpg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=110,fit=crop/Yg2xxNENX5FGqrpg/grubb-AMqlgr2pZrCRBolK.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=150,h=150,fit=crop/Yg2xxNENX5FGqrpg/ushja-AzG3KRODMOT6OxXG.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=250,h=70,fit=crop/Yg2xxNENX5FGqrpg/southwood2-YanqKWMPKViO5yEq.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=230,h=100,fit=crop/Yg2xxNENX5FGqrpg/willow-bridge-YZ9xgPMXx9SMMVG9.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=250,h=65,fit=crop/Yg2xxNENX5FGqrpg/sesblc-A3QOVnjNL0sgRGDJ.webp\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=210,h=100,fit=crop/Yg2xxNENX5FGqrpg/steeples-Y4LxXylpv8iQ9Nyv.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=150,h=150,fit=crop/Yg2xxNENX5FGqrpg/carolinagolfclub-Yg2qKG75qRTZR4VW.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=160,h=100,fit=crop/Yg2xxNENX5FGqrpg/bootbarn-m7V5Xy2kD3UMBDM9.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=110,fit=crop/Yg2xxNENX5FGqrpg/reids-YKbEg0PNXntba285.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=175,h=128,fit=crop/Yg2xxNENX5FGqrpg/toyota-YD0BXOrvN6ULBwqK.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=65,fit=crop/Yg2xxNENX5FGqrpg/maa-mp8qKkM7qOFq4xO0.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=100,fit=crop/Yg2xxNENX5FGqrpg/greystar-YX4ag82zy2ckVzlq.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=80,fit=crop/Yg2xxNENX5FGqrpg/tdsynnex-mePbKeyGg0F2NQqn.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=220,h=100,fit=crop/Yg2xxNENX5FGqrpg/palmettomoon-Yg2qKG756Ru1ZXDJ.jpg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=110,fit=crop/Yg2xxNENX5FGqrpg/grubb-AMqlgr2pZrCRBolK.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=150,h=150,fit=crop/Yg2xxNENX5FGqrpg/ushja-AzG3KRODMOT6OxXG.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=250,h=70,fit=crop/Yg2xxNENX5FGqrpg/southwood2-YanqKWMPKViO5yEq.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=230,h=100,fit=crop/Yg2xxNENX5FGqrpg/willow-bridge-YZ9xgPMXx9SMMVG9.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=250,h=65,fit=crop/Yg2xxNENX5FGqrpg/sesblc-A3QOVnjNL0sgRGDJ.webp\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=210,h=100,fit=crop/Yg2xxNENX5FGqrpg/steeples-Y4LxXylpv8iQ9Nyv.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=150,h=150,fit=crop/Yg2xxNENX5FGqrpg/carolinagolfclub-Yg2qKG75qRTZR4VW.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=160,h=100,fit=crop/Yg2xxNENX5FGqrpg/bootbarn-m7V5Xy2kD3UMBDM9.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=110,fit=crop/Yg2xxNENX5FGqrpg/reids-YKbEg0PNXntba285.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=175,h=128,fit=crop/Yg2xxNENX5FGqrpg/toyota-YD0BXOrvN6ULBwqK.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=65,fit=crop/Yg2xxNENX5FGqrpg/maa-mp8qKkM7qOFq4xO0.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=100,fit=crop/Yg2xxNENX5FGqrpg/greystar-YX4ag82zy2ckVzlq.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=80,fit=crop/Yg2xxNENX5FGqrpg/tdsynnex-mePbKeyGg0F2NQqn.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=220,h=100,fit=crop/Yg2xxNENX5FGqrpg/palmettomoon-Yg2qKG756Ru1ZXDJ.jpg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=110,fit=crop/Yg2xxNENX5FGqrpg/grubb-AMqlgr2pZrCRBolK.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=150,h=150,fit=crop/Yg2xxNENX5FGqrpg/ushja-AzG3KRODMOT6OxXG.jpeg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=250,h=70,fit=crop/Yg2xxNENX5FGqrpg/southwood2-YanqKWMPKViO5yEq.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=230,h=100,fit=crop/Yg2xxNENX5FGqrpg/willow-bridge-YZ9xgPMXx9SMMVG9.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=250,h=65,fit=crop/Yg2xxNENX5FGqrpg/sesblc-A3QOVnjNL0sgRGDJ.webp\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=210,h=100,fit=crop/Yg2xxNENX5FGqrpg/steeples-Y4LxXylpv8iQ9Nyv.png\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<img src=\"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=150,h=150,fit=crop/Yg2xxNENX5FGqrpg/carolinagolfclub-Yg2qKG75qRTZR4VW.jpeg\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t",
+    "desktop": {
+     "top": 65,
+     "left": 0,
+     "width": 1224,
+     "height": 150
+    },
+    "settings": {
+     "styles": {}
+    }
+   },
+   "zADTJO": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 16,
+     "left": 0,
+     "width": 328,
+     "height": 107
+    },
+    "content": "<h3 style=\"color: rgb(26, 26, 26); --lineHeightDesktop: 1.3; --fontSizeDesktop: 40px;\" dir=\"auto\">BRANDS I'VE PARTNERED WITH...</h3>",
+    "desktop": {
+     "top": 13,
+     "left": 103,
+     "width": 1018,
+     "height": 52
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "flex-start",
+      "m-element-margin": "0 0 16px 0"
+     }
+    }
+   },
+   "zFGAIv": {
+    "rel": "nofollow",
+    "type": "GridImage",
+    "mobile": {
+     "top": 438,
+     "left": 0,
+     "width": 53,
+     "height": 52
+    },
+    "desktop": {
+     "top": 120,
+     "left": 824,
+     "width": 59,
+     "height": 59
+    },
+    "settings": {
+     "alt": "",
+     "path": "smile-mePOry7xZeu3z1Xq.png",
+     "origin": "assets",
+     "styles": {
+      "align": "center",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     },
+     "clickAction": "none"
+    },
+    "fullResolutionWidth": 512,
+    "fullResolutionHeight": 512
+   },
+   "zFbe0l": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 96,
+     "left": 0,
+     "width": 328,
+     "height": 333
+    },
+    "content": "<p dir=\"auto\" class=\"body\" style=\"color: rgb(0, 0, 0); --lineHeightDesktop: 1.3; --fontSizeDesktop: 20px;\"><span style=\"color: rgb(0, 0, 0);\">Reagan Leonard is a local professional musician born and raised in Spartanburg, SC. He has played 300+ gigs in SC, NC, GA, and TN over his 15-year playing career. He performs solo, playing mostly acoustic covers of pop, folk, and rock songs from the 60s-current day. If you're looking to hear anything from Jack Johnson &amp; The Lumineers, Ed Sheeran &amp; John Mayer, Chris Stapleton &amp; Johnny Cash, all the way to Led Zeppelin &amp; The Rolling Stones, you might love Reagan Leonard.</span></p>",
+    "desktop": {
+     "top": 200,
+     "left": 624,
+     "width": 600,
+     "height": 234
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "flex-start",
+      "m-element-margin": "0 0 32px 0"
+     }
+    }
+   },
+   "zJIfBw": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 35,
+     "left": 0,
+     "width": 328,
+     "height": 72
+    },
+    "content": "<h3 dir=\"auto\" style=\"color: rgb(0, 0, 0); --lineHeightDesktop: 1.3; --fontSizeDesktop: 54px;\"><span style=\"color: rgb(0, 0, 0);\">Give your guests a night to remember</span></h3>",
+    "desktop": {
+     "top": 93,
+     "left": 74,
+     "width": 459,
+     "height": 211
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "flex-start",
+      "m-element-margin": "0 0 24px 0"
+     }
+    }
+   },
+   "zLlGyV": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 270,
+     "left": 0,
+     "width": 328,
+     "height": 164
+    },
+    "content": "<h5 dir=\"auto\" style=\"color: rgb(0, 0, 0);\">                   CREATE YOUR                    CUSTOM SONG LIST</h5><p dir=\"auto\" class=\"body-small\" style=\"color: rgb(0, 0, 0);\">Reagan will help you create the perfect soundtrack for your event and will make sure to include your specific song requests</p>",
+    "desktop": {
+     "top": 120,
+     "left": 412,
+     "width": 400,
+     "height": 124
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     }
+    }
+   },
+   "zMgPQr": {
+    "rel": "nofollow",
+    "type": "GridImage",
+    "mobile": {
+     "top": 269,
+     "left": 0,
+     "width": 67,
+     "height": 65
+    },
+    "desktop": {
+     "top": 130,
+     "left": 429,
+     "width": 74,
+     "height": 49
+    },
+    "settings": {
+     "alt": "",
+     "path": "list-mv0k8LG3wJck6Ejp.png",
+     "origin": "assets",
+     "styles": {
+      "align": "center",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     },
+     "clickAction": "none"
+    },
+    "fullResolutionWidth": 512,
+    "fullResolutionHeight": 512
+   },
+   "zO4dpY": {
+    "type": "GridEmbed",
+    "mobile": {
+     "top": 21,
+     "left": 0,
+     "width": 328,
+     "height": 154
+    },
+    "content": "<script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>\n<div class=\"elfsight-app-f8cd8f7b-53a5-47bf-a5de-e1610afad937\"></div>",
+    "desktop": {
+     "top": 24,
+     "left": 11,
+     "width": 1213,
+     "height": 154
+    },
+    "settings": {
+     "styles": {
+      "height": 537.265625,
+      "heightMobile": 988.625
+     }
+    }
+   },
+   "zOAxvo": {
+    "rel": "nofollow",
+    "type": "GridImage",
+    "mobile": {
+     "top": 1553,
+     "left": 0,
+     "width": 328,
+     "height": 278
+    },
+    "desktop": {
+     "top": 414,
+     "crop": {
+      "top": 50,
+      "left": 50,
+      "scale": 1
+     },
+     "left": 0,
+     "width": 400,
+     "height": 586
+    },
+    "settings": {
+     "alt": "Reagan performing for an outdoor wedding ceremony",
+     "path": "8efcef45-62c3-45f4-98c4-8370e01d1792-m2Wo1egEl1Cog3JP.jpg",
+     "origin": "assets",
+     "styles": {
+      "align": "center",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     },
+     "target": "_self",
+     "clickAction": "none"
+    },
+    "fullResolutionWidth": 828,
+    "fullResolutionHeight": 1214
+   },
+   "zQons2": {
+    "type": "GridVideo",
+    "mobile": {
+     "top": 184,
+     "left": 0,
+     "width": 328,
+     "height": 200
+    },
+    "desktop": {
+     "top": 144,
+     "left": 206,
+     "width": 812,
+     "height": 456
+    },
+    "settings": {
+     "jpg": "https://i.ytimg.com/vi/SgA_gRUz2J4/hqdefault.jpg",
+     "src": "https://www.youtube.com/embed/SgA_gRUz2J4?h=null&playlist=SgA_gRUz2J4&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0",
+     "webp": "https://i.ytimg.com/vi_webp/SgA_gRUz2J4/hqdefault.webp",
+     "styles": {
+      "align": "center",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     },
+     "provider": "youtube",
+     "initialSrc": "https://www.youtube.com/watch?v=SgA_gRUz2J4"
+    }
+   },
+   "zRaMck": {
+    "type": "GridEmbed",
+    "mobile": {
+     "top": 2031,
+     "left": 12,
+     "width": 134,
+     "height": 139
+    },
+    "content": "<div class=\"zola-vendor-badge\"><a target=\"_blank\" href=\"https://www.zola.com/wedding-vendors/wedding-bands-djs/reagan-leonard-music?utm_source=vendor&#x26;utm_medium=various&#x26;utm_content=award\"><img height=\"130\" width=\"130\" alt=\"Best of Zola 2024\" src=\"https://d1tntvpcrzvon2.cloudfront.net/static-assets/images/badges/best_of_zola_2024.png\"></a></div><script>\n(function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) { return; }\n  js = d.createElement(s);\n  js.id = id;\n  js.async = true;\n  js.src = 'https://d1tntvpcrzvon2.cloudfront.net/static-assets/js/marketplace/zolaVendorBadge.js';\n  fjs.parentNode.insertBefore(js, fjs);\n})(document, 'script', 'zola-mvjs');\n</script>",
+    "desktop": {
+     "top": 244,
+     "left": 34,
+     "width": 143,
+     "height": 135
+    },
+    "settings": {
+     "styles": {
+      "height": 134.796875
+     }
+    }
+   },
+   "zTCCm1": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 21,
+     "left": 0,
+     "width": 328,
+     "height": 72
+    },
+    "content": "<h3 dir=\"auto\" style=\"color: rgb(0, 0, 0);\">WORKING WITH REAGAN IS EASY</h3>",
+    "desktop": {
+     "top": 40,
+     "left": 0,
+     "width": 1224,
+     "height": 54
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     }
+    }
+   },
+   "zTLk2M": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 438,
+     "left": 0,
+     "width": 328,
+     "height": 137
+    },
+    "content": "<h5 style=\"color: rgb(0, 0, 0)\">            CREATE LIFELONG           MEMORIES</h5><p class=\"body-small\" style=\"color: rgb(0, 0, 0)\">Enjoy the magic of live music as Reagan provides a uniquely crafted atmosphere that your guests will remember forever</p>",
+    "desktop": {
+     "top": 120,
+     "left": 824,
+     "width": 400,
+     "height": 124
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     }
+    }
+   },
+   "zUvReD": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 145,
+     "left": 0,
+     "width": 328,
+     "height": 115
+    },
+    "content": "<p dir=\"auto\" class=\"body-large\" style=\"color: rgb(0, 0, 0); --lineHeightDesktop: 1.3; --fontSizeDesktop: 24px;\"><span style=\"color: rgb(0, 0, 0);\">Reagan is the performer that will make your event the one that people rave about. Book your free consultation today!</span></p>",
+    "desktop": {
+     "top": 360,
+     "left": 77,
+     "width": 453,
+     "height": 125
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "flex-start",
+      "m-element-margin": "0 0 32px 0"
+     }
+    }
+   },
+   "zWJq7B": {
+    "type": "GridImage",
+    "mobile": {
+     "top": 492,
+     "left": 0,
+     "width": 328,
+     "height": 412
+    },
+    "target": "_self",
+    "desktop": {
+     "top": 14,
+     "left": 145,
+     "width": 329,
+     "height": 508
+    },
+    "settings": {
+     "alt": "",
+     "path": "z82_5321-m5Kv4Prlq5Fznzxk.jpg",
+     "origin": "assets",
+     "styles": {
+      "align": "center",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     }
+    },
+    "naturalWidth": 1920,
+    "naturalHeight": 2004,
+    "fullResolutionWidth": 1067,
+    "fullResolutionHeight": 1600
+   },
+   "zanzhN": {
+    "type": "GridImage",
+    "mobile": {
+     "top": 271,
+     "left": 0,
+     "width": 328,
+     "height": 275
+    },
+    "target": "_self",
+    "desktop": {
+     "top": 40,
+     "left": 624,
+     "width": 600,
+     "height": 499
+    },
+    "settings": {
+     "alt": "",
+     "path": "z82_5728-AGBG1q34xyFB80yl.jpg",
+     "origin": "assets",
+     "styles": {
+      "align": "center",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     }
+    },
+    "naturalWidth": 1920,
+    "naturalHeight": 2880,
+    "fullResolutionWidth": 1062,
+    "fullResolutionHeight": 912
+   },
+   "zbWU6Q": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 107,
+     "left": 0,
+     "width": 328,
+     "height": 137
+    },
+    "content": "<h5 dir=\"auto\" style=\"color: rgb(0, 0, 0);\">   BOOK A FREE CONSULTATION</h5><p dir=\"auto\" class=\"body-small\" style=\"color: rgb(0, 0, 0);\">Book a free 15-minute consultation to chat about your event and determine how Reagan can best serve you</p>",
+    "desktop": {
+     "top": 120,
+     "left": 0,
+     "width": 400,
+     "height": 124
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     }
+    }
+   },
+   "zlCvGR": {
+    "type": "GridEmbed",
+    "mobile": {
+     "top": 71,
+     "left": 0,
+     "width": 328,
+     "height": 1537
+    },
+    "content": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/230255417493153\"></script>\n\n<script>\n  window.addEventListener(\"message\", function(e) {\n    if (typeof e.data === \"string\" && e.data.indexOf(\"setHeight\") > -1) {\n      var iframe = document.querySelector('iframe[src*=\"jotform\"]');\n      if (iframe) {\n        var height = e.data.split(\":\")[1];\n        iframe.style.height = height + \"px\";\n      }\n    }\n  });\n</script>",
+    "desktop": {
+     "top": 9,
+     "left": 399,
+     "width": 825,
+     "height": 154
+    },
+    "settings": {
+     "styles": {
+      "height": 539
+     }
+    }
+   },
+   "zoecAR": {
+    "rel": "",
+    "href": "/contact",
+    "type": "GridButton",
+    "mobile": {
+     "top": 398,
+     "left": 63,
+     "width": 203,
+     "height": 67
+    },
+    "target": "_self",
+    "content": "Request a free quote!",
+    "desktop": {
+     "top": 648,
+     "left": 206,
+     "width": 297,
+     "height": 56,
+     "fontSize": 18
+    },
+    "linkType": "page",
+    "settings": {
+     "type": "primary",
+     "styles": {
+      "align": "center",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     }
+    },
+    "fontColor": "rgb(35, 35, 35)",
+    "borderColor": "rgba(0, 0, 0, 0)",
+    "borderWidth": 0,
+    "borderRadius": 15,
+    "linkedPageId": "page_b12zuv2erKHFxIMWIh2zL",
+    "fontColorHover": "rgb(222, 216, 192)",
+    "backgroundColor": "rgb(222, 216, 192)",
+    "borderColorHover": "rgba(0, 0, 0, 0)",
+    "borderWidthHover": 0,
+    "backgroundColorHover": "rgb(35, 35, 35)"
+   },
+   "zp0J6b": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 35,
+     "left": 0,
+     "width": 328,
+     "height": 40
+    },
+    "content": "<h2 dir=\"auto\" style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 0, 0);\">MEET REAGAN</span></h2>",
+    "desktop": {
+     "top": 80,
+     "left": 624,
+     "width": 600,
+     "height": 72
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "center",
+      "m-element-margin": "0 0 24px 0"
+     }
+    }
+   },
+   "zrvTBB": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 22,
+     "left": 0,
+     "width": 328,
+     "height": 146
+    },
+    "content": "<p style=\"color: rgb(255, 255, 255); --lineHeightMobile: 1; --lineHeightDesktop: 1; --fontSizeMobile: 40px; --fontSizeDesktop: 44px; margin-bottom: 8px;\" class=\"body-large\" dir=\"auto\"><strong>YOU BE THE JUDGE...</strong></p><p style=\"color: rgb(255, 255, 255);\" class=\"body-large\" dir=\"auto\">Don't take their word for it...hear for yourself!</p>",
+    "desktop": {
+     "top": 39,
+     "left": 309,
+     "width": 606,
+     "height": 81
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "flex-start",
+      "m-element-margin": "0 0 16px 0"
+     }
+    }
+   },
+   "zzfAlM": {
+    "rel": "nofollow",
+    "type": "GridImage",
+    "mobile": {
+     "top": 2031,
+     "left": 183,
+     "width": 131,
+     "height": 128
+    },
+    "desktop": {
+     "top": 244,
+     "left": 234,
+     "width": 137,
+     "height": 136
+    },
+    "settings": {
+     "alt": "Upstate Bridal Association badge",
+     "path": "uba1-AoPee6JQgZTWDpke.png",
+     "origin": "assets",
+     "styles": {
+      "align": "center",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     },
+     "clickAction": "none"
+    },
+    "fullResolutionWidth": 426,
+    "fullResolutionHeight": 425
+   },
+   "1dG3FzwEFj": {
+    "type": "GridSocialIcons",
+    "links": [
+     {
+      "svg": "<svg id=\"instagram-brands\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\"><path fill=\"currentColor\" d=\"M12.003 5.848A6.142 6.142 0 005.85 12a6.142 6.142 0 006.152 6.152A6.142 6.142 0 0018.155 12a6.142 6.142 0 00-6.152-6.152zm0 10.152c-2.2 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.8 4-4 4zM19.84 5.596c0 .798-.642 1.435-1.435 1.435a1.435 1.435 0 111.435-1.435zm4.075 1.457c-.091-1.922-.53-3.625-1.939-5.028C20.575.622 18.872.183 16.95.087c-1.981-.112-7.919-.112-9.9 0-1.917.091-3.62.53-5.027 1.933C.614 3.423.18 5.125.084 7.047c-.112 1.981-.112 7.92 0 9.9.091 1.922.53 3.625 1.939 5.028 1.408 1.403 3.105 1.842 5.027 1.938 1.981.112 7.919.112 9.9 0 1.922-.091 3.625-.53 5.027-1.938 1.403-1.403 1.842-3.106 1.939-5.028.112-1.98.112-7.913 0-9.894zm-2.56 12.02a4.049 4.049 0 01-2.28 2.28c-1.58.627-5.328.483-7.073.483-1.746 0-5.499.139-7.073-.482a4.05 4.05 0 01-2.281-2.281c-.626-1.58-.482-5.328-.482-7.073s-.14-5.499.482-7.073a4.05 4.05 0 012.28-2.28c1.58-.627 5.328-.483 7.074-.483 1.745 0 5.498-.139 7.073.482a4.05 4.05 0 012.28 2.281c.627 1.58.482 5.328.482 7.073s.145 5.499-.482 7.073z\"></path></svg>",
+      "icon": "instagram",
+      "link": "https://www.instagram.com/reaganleonardmusic/"
+     },
+     {
+      "svg": "<svg id=\"facebook-brands\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\"><path fill=\"currentColor\" d=\"M24 12.073c0-6.63-5.371-12-12-12s-12 5.37-12 12c0 5.989 4.388 10.953 10.125 11.854v-8.386H7.077v-3.468h3.048V9.429c0-3.008 1.79-4.669 4.532-4.669 1.314 0 2.687.235 2.687.235v2.951H15.83c-1.49 0-1.955.925-1.955 1.874v2.253h3.328l-.532 3.468h-2.796v8.386C19.612 23.027 24 18.062 24 12.073z\"></path></svg>",
+      "icon": "facebook",
+      "link": "https://www.facebook.com/reaganleonardmusic/"
+     }
+    ],
+    "mobile": {
+     "top": 1975,
+     "left": 0,
+     "width": 328,
+     "height": 40
+    },
+    "desktop": {
+     "top": 184,
+     "left": 103,
+     "width": 194,
+     "height": 40
+    },
+    "settings": {
+     "styles": {
+      "icon-size": "40px",
+      "icon-color": "rgb(0, 0, 0)",
+      "icon-spacing": "space-around",
+      "icon-direction": "row",
+      "icon-color-hover": "rgb(35, 35, 35)",
+      "m-element-margin": "0 0 25px 0",
+      "space-between-icons": "40px"
+     },
+     "useBrandColors": false
+    }
+   },
+   "C1nXrt9WLM": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 1848,
+     "left": 0,
+     "width": 328,
+     "height": 127
+    },
+    "content": "<h6 style=\"color: rgb(0, 0, 0); --lineHeightDesktop:  1.3; --fontSizeDesktop:  32px; margin-bottom: 17px\"><span style=\"color: rgb(0, 0, 0)\">CONTACT ME</span></h6><p class=\"body\" style=\"color: rgb(0, 0, 0); --lineHeightDesktop:  1.3; --fontSizeDesktop:  20px; margin-bottom: 18px\"><span style=\"color: rgb(0, 0, 0)\">864-706-5104</span></p><p class=\"body\" style=\"color: rgb(0, 0, 0); --lineHeightDesktop:  1.3; --fontSizeDesktop:  20px; margin-bottom: 18px\"><span style=\"color: rgb(0, 0, 0)\">reagan@reaganleonardmusic.com</span></p>",
+    "desktop": {
+     "top": 24,
+     "left": 0,
+     "width": 392,
+     "height": 147
+    },
+    "settings": {
+     "styles": {
+      "text": "left",
+      "align": "flex-start",
+      "justify": "center",
+      "m-element-margin": "0 0 25px 0"
+     }
+    }
+   },
+   "headerText1": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 234,
+     "left": 0,
+     "width": 328,
+     "height": 99
+    },
+    "content": "<h1 dir=\"auto\" style=\"color: rgb(0, 0, 0); --lineHeightDesktop: 1;\"><span style=\"color: rgb(255, 255, 255);\"> Reagan Leonard Music</span></h1>",
+    "desktop": {
+     "top": 296,
+     "left": 116,
+     "width": 478,
+     "height": 298
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "center",
+      "m-align-self": "center",
+      "m-element-margin": "0 0 16px 0"
+     }
+    },
+    "backgroundColor": "rgba(36, 36, 36, 0.29)"
+   },
+   "element_uajUCLg5iDt0Ui6zyHAUo": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 16,
+     "left": 0,
+     "width": 328,
+     "height": 173
+    },
+    "content": "<p dir=\"auto\" class=\"body-large\" style=\"color: rgb(255, 255, 255); --lineHeightDesktop: 1.3; --fontSizeDesktop: 24px;\"><span style=\"font-family: Montserrat;\">From cocktail hour to upbeat rock'n'roll, Reagan's savory voice and versatile song selection make him the perfect choice for your upcoming party, wedding, or corporate event!</span></p>",
+    "desktop": {
+     "top": 80,
+     "left": 103,
+     "width": 503,
+     "height": 125
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "center",
+      "m-align-self": "center",
+      "m-element-margin": "0 0 16px 0"
+     }
+    },
+    "backgroundColor": "rgba(36, 36, 36, 0.28)"
+   }
+  },
+  "nav": [
+   {
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "home",
+    "linkedPageId": "home"
+   },
+   {
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "page_b12zuv2erKHFxIMWIh2zL",
+    "linkedPageId": "page_b12zuv2erKHFxIMWIh2zL"
+   },
+   {
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zXYSAS",
+    "linkedPageId": "zXYSAS"
+   },
+   {
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "page_uS8dGgEmmLJ9HDS2fOXPo",
+    "linkedPageId": "page_uS8dGgEmmLJ9HDS2fOXPo"
+   },
+   {
+    "isHidden": false,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "znDNC1",
+    "linkedPageId": "zzjMM5"
+   },
+   {
+    "isHidden": true,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zyf9Jp",
+    "linkedPageId": "znXbGi"
+   },
+   {
+    "isHidden": true,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zpfRmJ",
+    "linkedPageId": "znaRf3"
+   },
+   {
+    "isHidden": false,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zr0add",
+    "linkedPageId": "z9zgOI"
+   },
+   {
+    "isHidden": true,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zzho5U",
+    "linkedPageId": "zqx6tW"
+   },
+   {
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zjcXCC",
+    "linkedPageId": "zjcXCC"
+   },
+   {
+    "isHidden": true,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "z33-D7",
+    "linkedPageId": "z9ryno"
+   },
+   {
+    "isHidden": true,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zsGA2S",
+    "linkedPageId": "zLj3dE"
+   },
+   {
+    "isHidden": true,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zgOwXB",
+    "linkedPageId": "z7QSPy"
+   }
+  ],
+  "currentLocale": "system",
+  "homePageId": "home",
+  "cookieBannerAcceptText": [
+   0
+  ],
+  "cookieBannerDisclaimer": [
+   0
+  ],
+  "cookieBannerDeclineText": [
+   0
+  ],
+  "cookieConsentTranslations": {
+   "categoryNecessaryName": "Strictly Necessary Cookies",
+   "categoryNecessaryDescription": "These cookies are essential for the website to function properly.",
+   "categoryPlatformAnalyticsName": "Platform Analytics",
+   "categoryPlatformAnalyticsDescription": "Hostinger uses cookies and similar technologies to analyze how you use this website. This helps improve user experience and Hostinger products. For this purpose, Amplitude service is used to collect usage data that does not directly identify you. Analytics are used only with your consent."
+  },
+  "cookieConsentLocale": "system",
+  "blogReadingTimeText": [
+   0
+  ],
+  "metaTitle": [
+   0
+  ],
+  "meta": {
+   "GAId": "-",
+   "version": 201,
+   "template": "don",
+   "metaTitle": "Reagan Leonard - Acoustic Musician - Greenville, SC",
+   "customMeta": "<link rel=\"stylesheet\" href=\"https://srv1015-files.hstgr.io/b48071fee3e95af8/files/carousel.css\">\n\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-17134305700\">\n</script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-17134305700');\n</script>\n",
+   "ogImageAlt": "",
+   "faviconPath": "rlm_logo_icon-01-AVLD7aoM3Qckg2eY.jpg",
+   "ogImagePath": "link_preview-mP4XOM8OGgibEMo2.jpg",
+   "defaultLocale": "system",
+   "faviconOrigin": "assets",
+   "ogImageOrigin": "assets",
+   "googleAnalytics": "G-Q4JZ91TEGB",
+   "googleTagManager": "GTM-WNPC2JM",
+   "customBodyElements": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-17134305700\">\n</script><script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-17134305700');\n</script>",
+   "customHeadElements": "<link rel=\"stylesheet\" href=\"https://srv1015-files.hstgr.io/b48071fee3e95af8/files/carousel.css\">",
+   "stripePublicApiKey": "",
+   "isPrivateModeActive": false,
+   "demoEcommerceStoreId": "demo_01G0E9P2R0CFTNBWEEFCEV8EG5",
+   "shouldAddWWWPrefixToDomain": false
+  },
+  "forms": {
+   "Contact form": {
+    "token": "AVLVVMO2Q5s90XWlnGbpAEXyrErm5N02"
+   }
+  },
+  "styles": {
+   "h1": {
+    "font-size": "96px",
+    "font-style": "normal",
+    "font-family": "var(--font-primary)",
+    "font-weight": 500,
+    "line-height": "1.12",
+    "m-font-size": "44px",
+    "letter-spacing": "0.04em",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "h2": {
+    "font-size": "64px",
+    "font-style": "normal",
+    "font-family": "var(--font-primary)",
+    "font-weight": 400,
+    "line-height": "1.12",
+    "m-font-size": "36px",
+    "letter-spacing": "0.04em",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "h3": {
+    "font-size": "48px",
+    "font-style": "normal",
+    "font-family": "var(--font-primary)",
+    "font-weight": 400,
+    "line-height": "1.12",
+    "m-font-size": "32px",
+    "letter-spacing": "0.04em",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "h4": {
+    "font-size": "36px",
+    "font-style": "normal",
+    "font-family": "var(--font-primary)",
+    "font-weight": 400,
+    "line-height": "1.12",
+    "m-font-size": "28px",
+    "letter-spacing": "0.04em",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "h5": {
+    "font-size": "28px",
+    "font-style": "normal",
+    "font-family": "var(--font-primary)",
+    "font-weight": 400,
+    "line-height": "1.12",
+    "m-font-size": "24px",
+    "letter-spacing": "normal",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "h6": {
+    "font-size": "20px",
+    "font-style": "normal",
+    "font-family": "var(--font-primary)",
+    "font-weight": 800,
+    "line-height": "1.12",
+    "m-font-size": "20px",
+    "letter-spacing": "normal",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "body": {
+    "font-size": "16px",
+    "font-style": "normal",
+    "font-family": "var(--font-secondary)",
+    "font-weight": 500,
+    "line-height": "1.6",
+    "m-font-size": "16px",
+    "letter-spacing": "0.04em",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "font": {
+    "primary": "'Montserrat',sans-serif",
+    "secondary": "'Montserrat',sans-serif"
+   },
+   "nav-link": {
+    "color": "rgb(255, 255, 255)",
+    "font-size": "14px",
+    "font-style": "normal",
+    "font-family": "var(--font-secondary)",
+    "font-weight": 500,
+    "line-height": "1.2",
+    "m-font-size": "14px",
+    "letter-spacing": "normal",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "body-large": {
+    "font-size": "18px",
+    "font-style": "normal",
+    "font-family": "var(--font-secondary)",
+    "font-weight": 500,
+    "line-height": "1.6",
+    "m-font-size": "18px",
+    "letter-spacing": "0.04em",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "body-small": {
+    "font-size": "14px",
+    "font-style": "normal",
+    "font-family": "var(--font-secondary)",
+    "font-weight": 500,
+    "line-height": "1.6",
+    "m-font-size": "14px",
+    "letter-spacing": "normal",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "grid-button-primary": {
+    "font-size": "14px",
+    "padding-x": "28px",
+    "padding-y": "16px",
+    "font-style": "normal",
+    "border-null": "none",
+    "font-family": "var(--font-secondary)",
+    "font-weight": 800,
+    "line-height": "1.25",
+    "m-font-size": "14px",
+    "m-padding-x": "28px",
+    "m-padding-y": "16px",
+    "box-shadow-x": "0px",
+    "box-shadow-y": "0px",
+    "border-radius": 0,
+    "letter-spacing": "0.12em",
+    "text-transform": "none",
+    "box-shadow-blur": "0px",
+    "box-shadow-null": "none",
+    "text-decoration": "none",
+    "box-shadow-color": "rgba(0, 0, 0, 0)",
+    "border-null-hover": "none",
+    "box-shadow-spread": "0px",
+    "box-shadow-x-hover": "0px",
+    "box-shadow-y-hover": "0px",
+    "transition-duration": "0.2s",
+    "background-color-null": "",
+    "box-shadow-blur-hover": "0px",
+    "box-shadow-null-hover": "none",
+    "box-shadow-color-hover": "0px",
+    "box-shadow-spread-hover": "0px",
+    "transition-timing-function": "ease-in-out",
+    "background-color-null-hover": ""
+   },
+   "grid-button-secondary": {
+    "font-size": "14px",
+    "padding-x": "28px",
+    "padding-y": "16px",
+    "font-style": "normal",
+    "border-null": "none",
+    "font-family": "var(--font-secondary)",
+    "font-weight": 800,
+    "line-height": "1.25",
+    "m-font-size": "14px",
+    "m-padding-x": "28px",
+    "m-padding-y": "16px",
+    "box-shadow-x": "0px",
+    "box-shadow-y": "0px",
+    "border-radius": 0,
+    "letter-spacing": "0.12em",
+    "text-transform": "none",
+    "box-shadow-blur": "0px",
+    "box-shadow-null": "none",
+    "text-decoration": "none",
+    "box-shadow-color": "rgba(0, 0, 0, 0)",
+    "border-null-hover": "none",
+    "box-shadow-spread": "0px",
+    "box-shadow-x-hover": "0px",
+    "box-shadow-y-hover": "0px",
+    "transition-duration": "0.2s",
+    "background-color-null": "",
+    "box-shadow-blur-hover": "0px",
+    "box-shadow-null-hover": "none",
+    "box-shadow-color-hover": "0px",
+    "box-shadow-spread-hover": "0px",
+    "transition-timing-function": "ease-in-out",
+    "background-color-null-hover": ""
+   }
+  },
+  "domain": "reaganleonardmusic.com",
+  "siteId": "Yg2xxNENX5FGqrpg",
+  "ecommerceShoppingCart": [
+   0
+  ],
+  "blogCategories": {},
+  "hasBlogPosts": false,
+  "languageSwitcherLanguages": [],
+  "currentPageId": "home",
+  "productId": [
+   0
+  ],
+  "languageKeys": [
+   "system"
+  ],
+  "isDynamicProductPageEnabled": false,
+  "buildDate": "1787767751878"
+ },
+ "productData": [
+  0
+ ]
+}

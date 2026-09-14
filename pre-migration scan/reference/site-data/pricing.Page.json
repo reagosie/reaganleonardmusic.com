@@ -1,0 +1,839 @@
+{
+ "pageData": {
+  "pages": {
+   "home": {
+    "type": "default",
+    "name": "Home",
+    "slug": ""
+   },
+   "z7QSPy": {
+    "type": "default",
+    "name": "Thank You",
+    "slug": "thank-you"
+   },
+   "z9ryno": {
+    "type": "default",
+    "name": "Preferred Vendors",
+    "slug": "preferred-vendors"
+   },
+   "z9zgOI": {
+    "meta": {
+     "title": "Pricing - Reagan Leonard Music",
+     "noindex": false,
+     "keywords": [
+      "Pricing",
+      "Cost",
+      "Quote"
+     ],
+     "password": "",
+     "ogImageAlt": "",
+     "description": "Wondering if live music will break the bank? Don't worry! Reagan offers full transparency on his pricing on this page and will be happy to answer any further questions about cost if this doesn't answer them for you.",
+     "focusKeyword": "Pricing",
+     "passwordDesign": "default",
+     "passwordBackText": "Back to",
+     "passwordButtonText": "Enter",
+     "passwordHeadingText": "Guest area",
+     "passwordSubheadingText": "Please enter the password to access the page",
+     "passwordPlaceholderText": "Type password"
+    },
+    "name": "Pricing",
+    "slug": "pricing",
+    "type": "default",
+    "blocks": [
+     "z0z9oF"
+    ],
+    "hiddenSlots": []
+   },
+   "zLj3dE": {
+    "type": "default",
+    "name": "Ad Landing Page",
+    "slug": "welcome"
+   },
+   "zXYSAS": {
+    "type": "default",
+    "name": "Photos + Videos",
+    "slug": "photos-videos"
+   },
+   "zjcXCC": {
+    "type": "default",
+    "name": "FAQ",
+    "slug": "faq"
+   },
+   "znXbGi": {
+    "type": "default",
+    "name": "Wedding Show Contact Form",
+    "slug": "wedding-show-form"
+   },
+   "znaRf3": {
+    "type": "default",
+    "name": "More Videos",
+    "slug": "more-videos"
+   },
+   "zqx6tW": {
+    "type": "default",
+    "name": "Song List",
+    "slug": "song-list"
+   },
+   "zzjMM5": {
+    "type": "default",
+    "name": "Corporate",
+    "slug": "corporate"
+   },
+   "page_b12zuv2erKHFxIMWIh2zL": {
+    "type": "default",
+    "name": "Contact",
+    "slug": "contact"
+   },
+   "page_uS8dGgEmmLJ9HDS2fOXPo": {
+    "type": "default",
+    "name": "Weddings",
+    "slug": "weddings"
+   }
+  },
+  "blocks": {
+   "header": {
+    "slot": "header",
+    "type": "BlockNavigation",
+    "mobile": {
+     "height": 77,
+     "logoHeight": 67
+    },
+    "desktop": {
+     "height": 93,
+     "logoHeight": 83
+    },
+    "settings": {
+     "styles": {
+      "width": "1240px",
+      "padding": "5px 16px 5px 16px",
+      "logo-width": "125px",
+      "cartIconSize": "24px",
+      "link-spacing": "50px",
+      "m-logo-width": "100px",
+      "element-spacing": "33px",
+      "contrastBackgroundColor": "rgb(39, 89, 39)"
+     },
+     "cartText": "Shopping bag",
+     "isSticky": true,
+     "showLogo": true,
+     "headerLayout": "desktop-1",
+     "isCartVisible": true,
+     "logoImagePath": "rlm_logo_full-03-dWxMlyxq6VSgQxzK.png",
+     "mHeaderLayout": "mobile-1",
+     "logoImageOrigin": "assets",
+     "mobileLinksAlignment": "right"
+    },
+    "zindexes": [],
+    "background": {
+     "color": "rgb(20, 46, 20)",
+     "current": "color",
+     "isTransparent": false,
+     "temporaryBackground": {
+      "color": "transparent",
+      "current": "color",
+      "isTransparent": true
+     }
+    },
+    "components": [],
+    "logoAspectRatio": 1.512962962962963,
+    "navLinkTextColor": "rgb(255, 255, 255)",
+    "navLinkTextColorHover": "rgb(255, 255, 255)"
+   },
+   "z0z9oF": {
+    "type": "BlockLayout",
+    "mobile": {
+     "minHeight": 635
+    },
+    "desktop": {
+     "minHeight": 439
+    },
+    "settings": {
+     "styles": {
+      "block-padding": "16px 0 16px 0",
+      "m-block-padding": "16px"
+     }
+    },
+    "zindexes": [
+     "z1Od5j",
+     "zgAfTn",
+     "z-l2dx"
+    ],
+    "attachment": "unset",
+    "background": {
+     "color": "rgb(20, 46, 20)",
+     "current": "color",
+     "overlay-opacity": "0.00"
+    },
+    "components": [
+     "z1Od5j",
+     "zgAfTn",
+     "z-l2dx"
+    ]
+   },
+   "jlLCLyf0G-": {
+    "slot": "footer",
+    "type": "BlockLayout",
+    "htmlId": "request-quote",
+    "mobile": {
+     "minHeight": 2170
+    },
+    "desktop": {
+     "minHeight": 1685
+    },
+    "settings": {
+     "styles": {
+      "cols": "12",
+      "rows": 8,
+      "width": "1224px",
+      "m-rows": "1",
+      "col-gap": "24px",
+      "row-gap": "16px",
+      "row-size": "48px",
+      "column-gap": "24px",
+      "block-padding": "16px 0 16px 0",
+      "m-block-padding": "25px 16px 0px 16px",
+      "oldContentWidth": "1600px"
+     }
+    },
+    "zindexes": [
+     "zlCvGR",
+     "z0oAjD",
+     "zOAxvo",
+     "zRaMck",
+     "zzfAlM",
+     "C1nXrt9WLM",
+     "1dG3FzwEFj"
+    ],
+    "background": {
+     "color": "rgb(221, 221, 221)",
+     "current": "color"
+    },
+    "components": [
+     "C1nXrt9WLM",
+     "1dG3FzwEFj",
+     "zlCvGR",
+     "z0oAjD",
+     "zOAxvo",
+     "zRaMck",
+     "zzfAlM"
+    ]
+   }
+  },
+  "elements": {
+   "z-l2dx": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 0,
+     "left": 0,
+     "width": 328,
+     "height": 49
+    },
+    "content": "<h1 style=\"color: rgb(255, 255, 255); --lineHeightDesktop: 1.3; --fontSizeDesktop: 48px;\" dir=\"auto\">Pricing</h1>",
+    "desktop": {
+     "top": 14,
+     "left": 0,
+     "width": 612,
+     "height": 62
+    },
+    "settings": {
+     "styles": {
+      "text": "left",
+      "align": "flex-start",
+      "justify": "flex-start",
+      "m-element-margin": "0 0 16px 0"
+     }
+    }
+   },
+   "z0oAjD": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 9,
+     "left": 0,
+     "width": 328,
+     "height": 62
+    },
+    "content": "<h4 style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 24px; --fontSizeDesktop: 32px;\" dir=\"auto\"><span style=\"font-family: Montserrat; font-weight: 500;\"><strong>Check my availability for your event:</strong></span></h4>",
+    "desktop": {
+     "top": 22,
+     "left": 439,
+     "width": 745,
+     "height": 42
+    },
+    "settings": {
+     "styles": {
+      "text": "center",
+      "align": "flex-start",
+      "justify": "flex-start",
+      "m-element-margin": "0 0 16px 0"
+     }
+    }
+   },
+   "z1Od5j": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 64,
+     "left": 0,
+     "width": 328,
+     "height": 235
+    },
+    "content": "<h5 style=\"color: rgb(255, 255, 255); --lineHeightMobile: 1.3; --fontSizeMobile: 18px; margin-bottom: 24px;\" dir=\"auto\">Reagan's prices start at $500.</h5><h5 style=\"color: rgb(255, 255, 255); --lineHeightMobile: 1.3; --fontSizeMobile: 18px; margin-bottom: 24px;\" dir=\"auto\">He generally charges $250/hr for performing and $100/hr for travel (first hour of round-trip travel is free).</h5><h5 style=\"color: rgb(255, 255, 255); --lineHeightMobile: 1.3; --fontSizeMobile: 18px;\" dir=\"auto\">You can see more detailed prices for his wedding packages on the <u><a style=\"text-decoration: none;\" data-page-id=\"page_uS8dGgEmmLJ9HDS2fOXPo\" href=\"/weddings\" target=\"\">Weddings</a></u> page.</h5>",
+    "desktop": {
+     "top": 120,
+     "left": 0,
+     "width": 647,
+     "height": 236
+    },
+    "settings": {
+     "styles": {
+      "text": "left",
+      "align": "flex-start",
+      "m-text": "left",
+      "justify": "flex-start",
+      "m-element-margin": "0 0 16px 0"
+     }
+    }
+   },
+   "zOAxvo": {
+    "rel": "nofollow",
+    "type": "GridImage",
+    "mobile": {
+     "top": 1553,
+     "left": 0,
+     "width": 328,
+     "height": 278
+    },
+    "desktop": {
+     "top": 414,
+     "crop": {
+      "top": 50,
+      "left": 50,
+      "scale": 1
+     },
+     "left": 0,
+     "width": 400,
+     "height": 586
+    },
+    "settings": {
+     "alt": "Reagan performing for an outdoor wedding ceremony",
+     "path": "8efcef45-62c3-45f4-98c4-8370e01d1792-m2Wo1egEl1Cog3JP.jpg",
+     "origin": "assets",
+     "styles": {
+      "align": "center",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     },
+     "target": "_self",
+     "clickAction": "none"
+    },
+    "fullResolutionWidth": 828,
+    "fullResolutionHeight": 1214
+   },
+   "zRaMck": {
+    "type": "GridEmbed",
+    "mobile": {
+     "top": 2031,
+     "left": 12,
+     "width": 134,
+     "height": 139
+    },
+    "content": "<div class=\"zola-vendor-badge\"><a target=\"_blank\" href=\"https://www.zola.com/wedding-vendors/wedding-bands-djs/reagan-leonard-music?utm_source=vendor&#x26;utm_medium=various&#x26;utm_content=award\"><img height=\"130\" width=\"130\" alt=\"Best of Zola 2024\" src=\"https://d1tntvpcrzvon2.cloudfront.net/static-assets/images/badges/best_of_zola_2024.png\"></a></div><script>\n(function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) { return; }\n  js = d.createElement(s);\n  js.id = id;\n  js.async = true;\n  js.src = 'https://d1tntvpcrzvon2.cloudfront.net/static-assets/js/marketplace/zolaVendorBadge.js';\n  fjs.parentNode.insertBefore(js, fjs);\n})(document, 'script', 'zola-mvjs');\n</script>",
+    "desktop": {
+     "top": 244,
+     "left": 34,
+     "width": 143,
+     "height": 135
+    },
+    "settings": {
+     "styles": {
+      "height": 134.796875
+     }
+    }
+   },
+   "zgAfTn": {
+    "rel": "nofollow",
+    "type": "GridImage",
+    "mobile": {
+     "top": 316,
+     "left": 0,
+     "width": 328,
+     "height": 320
+    },
+    "desktop": {
+     "top": 14,
+     "left": 669,
+     "width": 555,
+     "height": 370
+    },
+    "settings": {
+     "alt": "",
+     "path": "z82_5452-m5KrZgGqwgiPO5jn.jpg",
+     "origin": "assets",
+     "styles": {
+      "align": "center",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     },
+     "clickAction": "none"
+    },
+    "fullResolutionWidth": 1600,
+    "fullResolutionHeight": 1067
+   },
+   "zlCvGR": {
+    "type": "GridEmbed",
+    "mobile": {
+     "top": 71,
+     "left": 0,
+     "width": 328,
+     "height": 1537
+    },
+    "content": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/230255417493153\"></script>\n\n<script>\n  window.addEventListener(\"message\", function(e) {\n    if (typeof e.data === \"string\" && e.data.indexOf(\"setHeight\") > -1) {\n      var iframe = document.querySelector('iframe[src*=\"jotform\"]');\n      if (iframe) {\n        var height = e.data.split(\":\")[1];\n        iframe.style.height = height + \"px\";\n      }\n    }\n  });\n</script>",
+    "desktop": {
+     "top": 9,
+     "left": 399,
+     "width": 825,
+     "height": 154
+    },
+    "settings": {
+     "styles": {
+      "height": 539
+     }
+    }
+   },
+   "zzfAlM": {
+    "rel": "nofollow",
+    "type": "GridImage",
+    "mobile": {
+     "top": 2031,
+     "left": 183,
+     "width": 131,
+     "height": 128
+    },
+    "desktop": {
+     "top": 244,
+     "left": 234,
+     "width": 137,
+     "height": 136
+    },
+    "settings": {
+     "alt": "Upstate Bridal Association badge",
+     "path": "uba1-AoPee6JQgZTWDpke.png",
+     "origin": "assets",
+     "styles": {
+      "align": "center",
+      "justify": "center",
+      "m-element-margin": "0 0 16px 0"
+     },
+     "clickAction": "none"
+    },
+    "fullResolutionWidth": 426,
+    "fullResolutionHeight": 425
+   },
+   "1dG3FzwEFj": {
+    "type": "GridSocialIcons",
+    "links": [
+     {
+      "svg": "<svg id=\"instagram-brands\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\"><path fill=\"currentColor\" d=\"M12.003 5.848A6.142 6.142 0 005.85 12a6.142 6.142 0 006.152 6.152A6.142 6.142 0 0018.155 12a6.142 6.142 0 00-6.152-6.152zm0 10.152c-2.2 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.8 4-4 4zM19.84 5.596c0 .798-.642 1.435-1.435 1.435a1.435 1.435 0 111.435-1.435zm4.075 1.457c-.091-1.922-.53-3.625-1.939-5.028C20.575.622 18.872.183 16.95.087c-1.981-.112-7.919-.112-9.9 0-1.917.091-3.62.53-5.027 1.933C.614 3.423.18 5.125.084 7.047c-.112 1.981-.112 7.92 0 9.9.091 1.922.53 3.625 1.939 5.028 1.408 1.403 3.105 1.842 5.027 1.938 1.981.112 7.919.112 9.9 0 1.922-.091 3.625-.53 5.027-1.938 1.403-1.403 1.842-3.106 1.939-5.028.112-1.98.112-7.913 0-9.894zm-2.56 12.02a4.049 4.049 0 01-2.28 2.28c-1.58.627-5.328.483-7.073.483-1.746 0-5.499.139-7.073-.482a4.05 4.05 0 01-2.281-2.281c-.626-1.58-.482-5.328-.482-7.073s-.14-5.499.482-7.073a4.05 4.05 0 012.28-2.28c1.58-.627 5.328-.483 7.074-.483 1.745 0 5.498-.139 7.073.482a4.05 4.05 0 012.28 2.281c.627 1.58.482 5.328.482 7.073s.145 5.499-.482 7.073z\"></path></svg>",
+      "icon": "instagram",
+      "link": "https://www.instagram.com/reaganleonardmusic/"
+     },
+     {
+      "svg": "<svg id=\"facebook-brands\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\"><path fill=\"currentColor\" d=\"M24 12.073c0-6.63-5.371-12-12-12s-12 5.37-12 12c0 5.989 4.388 10.953 10.125 11.854v-8.386H7.077v-3.468h3.048V9.429c0-3.008 1.79-4.669 4.532-4.669 1.314 0 2.687.235 2.687.235v2.951H15.83c-1.49 0-1.955.925-1.955 1.874v2.253h3.328l-.532 3.468h-2.796v8.386C19.612 23.027 24 18.062 24 12.073z\"></path></svg>",
+      "icon": "facebook",
+      "link": "https://www.facebook.com/reaganleonardmusic/"
+     }
+    ],
+    "mobile": {
+     "top": 1975,
+     "left": 0,
+     "width": 328,
+     "height": 40
+    },
+    "desktop": {
+     "top": 184,
+     "left": 103,
+     "width": 194,
+     "height": 40
+    },
+    "settings": {
+     "styles": {
+      "icon-size": "40px",
+      "icon-color": "rgb(0, 0, 0)",
+      "icon-spacing": "space-around",
+      "icon-direction": "row",
+      "icon-color-hover": "rgb(35, 35, 35)",
+      "m-element-margin": "0 0 25px 0",
+      "space-between-icons": "40px"
+     },
+     "useBrandColors": false
+    }
+   },
+   "C1nXrt9WLM": {
+    "type": "GridTextBox",
+    "mobile": {
+     "top": 1848,
+     "left": 0,
+     "width": 328,
+     "height": 127
+    },
+    "content": "<h6 style=\"color: rgb(0, 0, 0); --lineHeightDesktop:  1.3; --fontSizeDesktop:  32px; margin-bottom: 17px\"><span style=\"color: rgb(0, 0, 0)\">CONTACT ME</span></h6><p class=\"body\" style=\"color: rgb(0, 0, 0); --lineHeightDesktop:  1.3; --fontSizeDesktop:  20px; margin-bottom: 18px\"><span style=\"color: rgb(0, 0, 0)\">864-706-5104</span></p><p class=\"body\" style=\"color: rgb(0, 0, 0); --lineHeightDesktop:  1.3; --fontSizeDesktop:  20px; margin-bottom: 18px\"><span style=\"color: rgb(0, 0, 0)\">reagan@reaganleonardmusic.com</span></p>",
+    "desktop": {
+     "top": 24,
+     "left": 0,
+     "width": 392,
+     "height": 147
+    },
+    "settings": {
+     "styles": {
+      "text": "left",
+      "align": "flex-start",
+      "justify": "center",
+      "m-element-margin": "0 0 25px 0"
+     }
+    }
+   }
+  },
+  "nav": [
+   {
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "home",
+    "linkedPageId": "home"
+   },
+   {
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "page_b12zuv2erKHFxIMWIh2zL",
+    "linkedPageId": "page_b12zuv2erKHFxIMWIh2zL"
+   },
+   {
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zXYSAS",
+    "linkedPageId": "zXYSAS"
+   },
+   {
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "page_uS8dGgEmmLJ9HDS2fOXPo",
+    "linkedPageId": "page_uS8dGgEmmLJ9HDS2fOXPo"
+   },
+   {
+    "isHidden": false,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "znDNC1",
+    "linkedPageId": "zzjMM5"
+   },
+   {
+    "isHidden": true,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zyf9Jp",
+    "linkedPageId": "znXbGi"
+   },
+   {
+    "isHidden": true,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zpfRmJ",
+    "linkedPageId": "znaRf3"
+   },
+   {
+    "isHidden": false,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zr0add",
+    "linkedPageId": "z9zgOI"
+   },
+   {
+    "isHidden": true,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zzho5U",
+    "linkedPageId": "zqx6tW"
+   },
+   {
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zjcXCC",
+    "linkedPageId": "zjcXCC"
+   },
+   {
+    "isHidden": true,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "z33-D7",
+    "linkedPageId": "z9ryno"
+   },
+   {
+    "isHidden": true,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zsGA2S",
+    "linkedPageId": "zLj3dE"
+   },
+   {
+    "isHidden": true,
+    "linkType": "Page",
+    "subItems": [],
+    "navItemId": "zgOwXB",
+    "linkedPageId": "z7QSPy"
+   }
+  ],
+  "currentLocale": "system",
+  "homePageId": "home",
+  "cookieBannerAcceptText": [
+   0
+  ],
+  "cookieBannerDisclaimer": [
+   0
+  ],
+  "cookieBannerDeclineText": [
+   0
+  ],
+  "cookieConsentTranslations": {
+   "categoryNecessaryName": "Strictly Necessary Cookies",
+   "categoryNecessaryDescription": "These cookies are essential for the website to function properly.",
+   "categoryPlatformAnalyticsName": "Platform Analytics",
+   "categoryPlatformAnalyticsDescription": "Hostinger uses cookies and similar technologies to analyze how you use this website. This helps improve user experience and Hostinger products. For this purpose, Amplitude service is used to collect usage data that does not directly identify you. Analytics are used only with your consent."
+  },
+  "cookieConsentLocale": "system",
+  "blogReadingTimeText": [
+   0
+  ],
+  "metaTitle": [
+   0
+  ],
+  "meta": {
+   "GAId": "-",
+   "version": 201,
+   "template": "don",
+   "metaTitle": "Reagan Leonard - Acoustic Musician - Greenville, SC",
+   "customMeta": "<link rel=\"stylesheet\" href=\"https://srv1015-files.hstgr.io/b48071fee3e95af8/files/carousel.css\">\n\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-17134305700\">\n</script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-17134305700');\n</script>\n",
+   "ogImageAlt": "",
+   "faviconPath": "rlm_logo_icon-01-AVLD7aoM3Qckg2eY.jpg",
+   "ogImagePath": "link_preview-mP4XOM8OGgibEMo2.jpg",
+   "defaultLocale": "system",
+   "faviconOrigin": "assets",
+   "ogImageOrigin": "assets",
+   "googleAnalytics": "G-Q4JZ91TEGB",
+   "googleTagManager": "GTM-WNPC2JM",
+   "customBodyElements": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-17134305700\">\n</script><script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-17134305700');\n</script>",
+   "customHeadElements": "<link rel=\"stylesheet\" href=\"https://srv1015-files.hstgr.io/b48071fee3e95af8/files/carousel.css\">",
+   "stripePublicApiKey": "",
+   "isPrivateModeActive": false,
+   "demoEcommerceStoreId": "demo_01G0E9P2R0CFTNBWEEFCEV8EG5",
+   "shouldAddWWWPrefixToDomain": false
+  },
+  "forms": {
+   "Contact form": {
+    "token": "AVLVVMO2Q5s90XWlnGbpAEXyrErm5N02"
+   }
+  },
+  "styles": {
+   "h1": {
+    "font-size": "96px",
+    "font-style": "normal",
+    "font-family": "var(--font-primary)",
+    "font-weight": 500,
+    "line-height": "1.12",
+    "m-font-size": "44px",
+    "letter-spacing": "0.04em",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "h2": {
+    "font-size": "64px",
+    "font-style": "normal",
+    "font-family": "var(--font-primary)",
+    "font-weight": 400,
+    "line-height": "1.12",
+    "m-font-size": "36px",
+    "letter-spacing": "0.04em",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "h3": {
+    "font-size": "48px",
+    "font-style": "normal",
+    "font-family": "var(--font-primary)",
+    "font-weight": 400,
+    "line-height": "1.12",
+    "m-font-size": "32px",
+    "letter-spacing": "0.04em",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "h4": {
+    "font-size": "36px",
+    "font-style": "normal",
+    "font-family": "var(--font-primary)",
+    "font-weight": 400,
+    "line-height": "1.12",
+    "m-font-size": "28px",
+    "letter-spacing": "0.04em",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "h5": {
+    "font-size": "28px",
+    "font-style": "normal",
+    "font-family": "var(--font-primary)",
+    "font-weight": 400,
+    "line-height": "1.12",
+    "m-font-size": "24px",
+    "letter-spacing": "normal",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "h6": {
+    "font-size": "20px",
+    "font-style": "normal",
+    "font-family": "var(--font-primary)",
+    "font-weight": 800,
+    "line-height": "1.12",
+    "m-font-size": "20px",
+    "letter-spacing": "normal",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "body": {
+    "font-size": "16px",
+    "font-style": "normal",
+    "font-family": "var(--font-secondary)",
+    "font-weight": 500,
+    "line-height": "1.6",
+    "m-font-size": "16px",
+    "letter-spacing": "0.04em",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "font": {
+    "primary": "'Montserrat',sans-serif",
+    "secondary": "'Montserrat',sans-serif"
+   },
+   "nav-link": {
+    "color": "rgb(255, 255, 255)",
+    "font-size": "14px",
+    "font-style": "normal",
+    "font-family": "var(--font-secondary)",
+    "font-weight": 500,
+    "line-height": "1.2",
+    "m-font-size": "14px",
+    "letter-spacing": "normal",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "body-large": {
+    "font-size": "18px",
+    "font-style": "normal",
+    "font-family": "var(--font-secondary)",
+    "font-weight": 500,
+    "line-height": "1.6",
+    "m-font-size": "18px",
+    "letter-spacing": "0.04em",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "body-small": {
+    "font-size": "14px",
+    "font-style": "normal",
+    "font-family": "var(--font-secondary)",
+    "font-weight": 500,
+    "line-height": "1.6",
+    "m-font-size": "14px",
+    "letter-spacing": "normal",
+    "text-transform": "none",
+    "text-decoration": "none"
+   },
+   "grid-button-primary": {
+    "font-size": "14px",
+    "padding-x": "28px",
+    "padding-y": "16px",
+    "font-style": "normal",
+    "border-null": "none",
+    "font-family": "var(--font-secondary)",
+    "font-weight": 800,
+    "line-height": "1.25",
+    "m-font-size": "14px",
+    "m-padding-x": "28px",
+    "m-padding-y": "16px",
+    "box-shadow-x": "0px",
+    "box-shadow-y": "0px",
+    "border-radius": 0,
+    "letter-spacing": "0.12em",
+    "text-transform": "none",
+    "box-shadow-blur": "0px",
+    "box-shadow-null": "none",
+    "text-decoration": "none",
+    "box-shadow-color": "rgba(0, 0, 0, 0)",
+    "border-null-hover": "none",
+    "box-shadow-spread": "0px",
+    "box-shadow-x-hover": "0px",
+    "box-shadow-y-hover": "0px",
+    "transition-duration": "0.2s",
+    "background-color-null": "",
+    "box-shadow-blur-hover": "0px",
+    "box-shadow-null-hover": "none",
+    "box-shadow-color-hover": "0px",
+    "box-shadow-spread-hover": "0px",
+    "transition-timing-function": "ease-in-out",
+    "background-color-null-hover": ""
+   },
+   "grid-button-secondary": {
+    "font-size": "14px",
+    "padding-x": "28px",
+    "padding-y": "16px",
+    "font-style": "normal",
+    "border-null": "none",
+    "font-family": "var(--font-secondary)",
+    "font-weight": 800,
+    "line-height": "1.25",
+    "m-font-size": "14px",
+    "m-padding-x": "28px",
+    "m-padding-y": "16px",
+    "box-shadow-x": "0px",
+    "box-shadow-y": "0px",
+    "border-radius": 0,
+    "letter-spacing": "0.12em",
+    "text-transform": "none",
+    "box-shadow-blur": "0px",
+    "box-shadow-null": "none",
+    "text-decoration": "none",
+    "box-shadow-color": "rgba(0, 0, 0, 0)",
+    "border-null-hover": "none",
+    "box-shadow-spread": "0px",
+    "box-shadow-x-hover": "0px",
+    "box-shadow-y-hover": "0px",
+    "transition-duration": "0.2s",
+    "background-color-null": "",
+    "box-shadow-blur-hover": "0px",
+    "box-shadow-null-hover": "none",
+    "box-shadow-color-hover": "0px",
+    "box-shadow-spread-hover": "0px",
+    "transition-timing-function": "ease-in-out",
+    "background-color-null-hover": ""
+   }
+  },
+  "domain": "reaganleonardmusic.com",
+  "siteId": "Yg2xxNENX5FGqrpg",
+  "ecommerceShoppingCart": [
+   0
+  ],
+  "blogCategories": {},
+  "hasBlogPosts": false,
+  "languageSwitcherLanguages": [],
+  "currentPageId": "z9zgOI",
+  "productId": [
+   0
+  ],
+  "languageKeys": [
+   "system"
+  ],
+  "isDynamicProductPageEnabled": false,
+  "buildDate": "1787767751878"
+ },
+ "productData": [
+  0
+ ]
+}

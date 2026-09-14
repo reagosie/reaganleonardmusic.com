@@ -1,0 +1,188 @@
+PAGE: song-list   (id=zqx6tW, slug='song-list', name='Song List')
+  title      : Song List - Reagan Leonard Music
+  description: This page contains a list of all the songs that are currently in Reagan's song list. However, if given enough time prior to your event, Reagan can learn to play songs upon request.
+  keywords   : ['Song List', 'Songs', 'Repertoire']
+  focusKeyword: Song List
+  noindex    : True
+
+==============================================================================
+BLOCK zaodez  type=BlockLayout  slot=(body)  htmlId=
+  background: color rgb(255, 255, 255)
+  desktop minHeight=2122 mobile minHeight=5415
+    <GridTextBox> zf7pil  @(19,0) 1224x62
+        | Please note that these are not the only songs Reagan can play. If given enough time prior to your event, Reagan can also learn songs upon request.
+    <GridImage> zJggvT  @(121,47) 480x320  path=rlm_logo_full-01-Yyvoay0p03f5Knqx.png
+        alt=''  fullRes=4167x2754
+    <GridTextBox> zGy5RD  @(126,647) 530x435
+        | Classics / Crooners
+        | Beyond the Sea - Bobby Darin
+        | Blackbird - The Beatles
+        | Earth Angel - The Penguins
+        | Easy - The Commodores
+        | Fly Me to the Moon - Frank Sinatra
+        | God Only Knows - The Beach Boys
+        | Hallelujah - Jeff Buckley
+        | Help! - The Beatles
+        | Here Comes the Sun - The Beatles
+        | I’ve Got You Under My Skin - Frank Sinatra
+        | L-O-V-E - Nat King Cole
+        | Pretty Woman - Roy Orbison
+        | Stuck in the Middle with You - Stealers Wheel
+        | That’s Life - Frank Sinatra
+        | The Joker - Steve Miller Band
+        | The Way You Look Tonight - Frank Sinatra
+        | Twist & Shout - The Beatles
+        | We Are Family - Sister Sledge
+        | What a Wonderful World - Louis Armstrong
+        | Wish You Were Here - Pink Floyd
+        | You Can’t Always Get What You Want - The Rolling Stones
+    <GridTextBox> zkwVcH  @(481,56) 447x587
+        | Chill / Easy Listening
+        | Angel - Jack Johnson
+        | Banana Pancakes - Jack Johnson
+        | Better Together - Jack Johnson
+        | Beyond - Leon Bridges
+        | Bubble Toes - Jack Johnson
+        | Carolina in my Mind - James Taylor
+        | Coming Home - Leon Bridges
+        | Daughters - John Mayer
+        | Good People - Jack Johnson
+        | Gravity - John Mayer
+        | Green Eyes - Coldplay
+        | How Sweet It Is - James Taylor
+        | I’m Yours - Jason Mraz
+        | In the Blood - John Mayer
+        | Love is a Verb - John Mayer
+        | Lucky - Jason Mraz / Colbie Caillat
+        | Margaritaville - Jimmy Buffet
+        | Posters - Jack Johnson
+        | Sitting, Waiting, Wishing - Jack Johnson
+        | Slow Dancing in a Burning Room - John Mayer
+        | Sweet Pea - Amos Lee
+        | Taylor - Jack Johnson
+        | That’s What Angels Can Do - The Wood Brothers
+        | The Age of Worry - John Mayer
+        | Upside Down - Jack Johnson
+        | Valerie - Amy Winehouse
+        | We’re Going To Be Friends - The White Stripes
+        | You Are the Best Thing - Ray LaMontagne
+        | Young and Able - Current Swell
+    <GridTextBox> zqWA0C  @(600,645) 536x241
+        | Country
+        | All Your’n - Tyler Childers
+        | Bless the Broken Road - Rascal Flatts
+        | Chicken Fried - Zac Brown Band
+        | Follow Me - Uncle Kracker
+        | Folsom Prison Blues - Johnny Cash
+        | For Today - Jessica Lea Mayfield
+        | Joy of my Life - Chris Stapleton
+        | Lady May - Tyler Childers
+        | Take Me Home, Country Roads - John Denver
+        | Tennessee Whiskey - Chris Stapleton
+        | Wagon Wheel - Old Crow Medicine Show
+    <GridTextBox> zBbiOF  @(865,648) 473x376
+        | Modern Folk
+        | Cleopatra - The Lumineers
+        | Cold Arms - Mumford and Sons
+        | Dead Sea - The Lumineers
+        | First Day of My Life - Bright Eyes
+        | Flowers in Your Hair - The Lumineers
+        | Ho Hey - The Lumineers
+        | I and Love and You - The Avett Brothers
+        | I Wish I Was - The Avett Brothers
+        | Laundry Room - The Avett Brothers
+        | Live and Die - The Avett Brothers
+        | Murder in the City - The Avett Brothers
+        | Ophelia - The Lumineers
+        | Pick and Choose - Daniel Nunnelee
+        | Rejects in the Attic - The Avett Brothers
+        | Slow it Down - The Lumineers
+        | Spell of Ambition - The Avett Brothers
+        | St. Augustine at Night - Dawes
+        | Ten Thousand Words - The Avett Brothers
+    <GridTextBox> z-slRa  @(1097,57) 446x433
+        | Pop / Top 40
+        | A-Team - Ed Sheeran
+        | Castle on the Hill - Ed Sheeran
+        | Cherry Wine - Hozier
+        | Everglow - Coldplay
+        | Every Teardrop is a Waterfall - Coldplay
+        | Gold Rush - Ed Sheeran
+        | Hey There Delilah - Plain White T’s
+        | Let Her Go - Passenger
+        | Mess is Mine - Vance Joy
+        | Mr. Brightside - The Killers
+        | Perfect - Ed Sheeran
+        | Riptide - Vance Joy
+        | River - Bishop Briggs
+        | She - Ed Sheeran
+        | Someone You Loved - Lewis Capaldi
+        | Sunday Morning - Maroon 5
+        | Thinking Out Loud - Ed Sheeran
+        | Too Close - Alex Clare
+        | Unsteady - X Ambassadors
+        | Viva La Vida - Coldplay
+        | What Do I Know? - Ed Sheeran
+    <GridTextBox> zx0uja  @(1257,651) 470x606
+        | Rock
+        | All for You - Sister Hazel
+        | Beast of Burden - The Rolling Stones
+        | Blister in the Sun - The Violent Femmes
+        | Brown-Eyed Girl - Van Morrison
+        | Come Alive - Hanni El Khatib
+        | Come Together - The Beatles
+        | Creep - Radiohead
+        | Death Row - Jimi Charles Moody
+        | Don’t Ask Me Why - Great Caesar
+        | Gold on the Ceiling - The Black Keys
+        | Hotel Yorba - The White Stripes
+        | I Still Haven’t Found What I’m Looking For - U2
+        | I’ll Go Crazy If I Don’t Go Crazy Tonight - U2
+        | Island in the Sun - Weezer
+        | Jumper - 3rd Eye Blind
+        | Love Interruption - Jack White
+        | Radar Detector - Darwin Deez
+        | Ramble On - Led Zeppelin
+        | Reptilia - The Strokes
+        | Rock and Roll - Led Zeppelin
+        | Running to Stand Still - U2
+        | Sweet Home Alabama - Lynyrd Skynyrd
+        | Trouble - Cage the Elephant
+        | Under the Bridge - Red Hot Chili Peppers
+        | Use Somebody - Kings of Leon
+        | What I Like About You - The Romantics
+        | With or Without You - U2
+        | Wonderwall - Oasis
+        | Yellow - Coldplay
+        | You Rascal, You - Hanni El Khatib
+    <GridTextBox> zccIET  @(1553,58) 445x184
+        | 80s
+        | Don’t You Forget About Me - Simple Minds
+        | Free Fallin - Tom Petty
+        | I’m Gonna Be (500 Miles) - The Proclaimers
+        | Jack & Diane - John Cougar Mellencamp
+        | Jessie’s Girl - Rick Springfield
+        | Summer of ‘69 - Bryan Adams
+        | You Make My Dreams (Come True) - Hall & Oates
+        | Your Love - The Outfield
+    <GridTextBox> zSDSTf  @(1761,58) 445x184
+        | Wedding Songs
+        | Amazing Grace
+        | And I Love Her - Passenger
+        | Baby, I’m Yours - Arctic Monkeys
+        | Can't Help Falling in Love - Elvis Presley
+        | I Won’t Last a Day Without You - The Carpenters
+        | The One - Kodaline
+        | Unchained Melody - The Righteous Brothers
+        | Wedding Song (There is Love) - Noel Paul Stookey
+    <GridTextBox> zpXP2U  @(1894,651) 470x203
+        | Christmas Songs:
+        | Deck the Halls
+        | Holly Jolly Christmas - Burl Ives
+        | Jingle Bell Rock - Burl Ives
+        | Jingle Bells
+        | Let it Snow
+        | O Holy Night
+        | Rockin’ Around the Christmas Tree - Brenda Lee
+        | Rudolph the Red-Nosed Reindeer - Burl Ives
+        | Silent Night

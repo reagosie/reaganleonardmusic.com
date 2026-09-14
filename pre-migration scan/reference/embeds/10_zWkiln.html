@@ -1,0 +1,95 @@
+<style>
+  /* Import Montserrat */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap');
+
+  .pricing-card {
+    background: #FDF6DA;
+    border: 5px solid #F0C105; /* gold border */
+    border-radius: 10px;
+    padding: 2px 20px;
+    width: 100%;               /* always fill its container */
+	height: 375px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    line-height: 1.45;
+  }
+
+  .pricing-card__title {
+    font-size: clamp(28px, 3rem, 48px);   /* Gold */
+    font-weight: 400;  /* un-bolded */
+    margin: 0 0 8px;
+  }
+
+  .pricing-card__price {
+    font-size: clamp(18px, 2rem, 24px);   /* $600 */
+    font-weight: 700;
+    margin: 0 0 16px;
+  }
+
+  /* Everything below the price → 16px */
+  .pricing-card__tagline {
+    font-size: clamp(14px, 1.25rem, 18px);
+    margin: 0 0 16px;
+  }
+
+  .pricing-card__section-title {
+    font-size: clamp(12px, 1.25rem, 16px);
+    font-weight: 700;
+    margin: 12px 0 10px;
+  }
+
+  .pricing-card__list {
+    margin: 0;
+    padding-left: 1.15em;
+  }
+
+  .pricing-card__list li {
+    font-size: clamp(12px, 1.25rem, 16px);
+    margin-bottom: 8px;
+	line-height: 1.1;
+  }
+  
+    /* ✅ MOBILE OVERRIDES */
+  @media (max-width: 400px) {
+    .pricing-card {
+      height: auto; /* Let it expand naturally on smaller screens */
+      padding: 12px 16px; /* Slightly tighter padding */
+    }
+
+    .pricing-card__title {
+      font-size: 32px;
+    }
+    .pricing-card__price {
+      font-size: 20px;
+    }
+    .pricing-card__tagline {
+      font-size: 15px;
+    }
+    .pricing-card__section-title {
+      font-size: 14px;
+    }
+    .pricing-card__list li {
+      font-size: 14px;
+      margin-bottom: 6px;
+      line-height: 1.25;
+    }
+  }
+</style>
+
+<section class="pricing-card" aria-labelledby="gold-title">
+  <h2 id="gold-title" class="pricing-card__title">Gold</h2>
+  <div class="pricing-card__price">$600</div>
+  <p class="pricing-card__tagline">
+    For the couples who want something just a little bit more special for their big day!
+  </p>
+
+  <div class="pricing-card__section-title">What's Included?</div>
+  <ul class="pricing-card__list">
+    <li>Pre-Ceremony Instrumental Music (up to 30 minutes)</li>
+    <li>Wedding Ceremony Music (up to 30 minutes)</li>
+	<li>Cocktail Hour Music (up to 1 hour)</li>
+    <li>Mic &#x26; speakers available for announcements/toasts</li>
+    <li>I will provide all my own sound equipment</li>
+  </ul>
+</section>

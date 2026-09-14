@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Same seven indexable pages, same URLs and priorities as the old sitemap.
+  The six hidden pages (more-videos, song-list, preferred-vendors, welcome,
+  thank-you, wedding-show-form) are noindex and intentionally not listed.
+  Update <lastmod> when a page's content changes.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://reaganleonardmusic.com</loc><lastmod>2026-09-11</lastmod><priority>1.0</priority></url>
+  <url><loc>https://reaganleonardmusic.com/pricing</loc><lastmod>2026-09-09</lastmod><priority>0.5</priority></url>
+  <url><loc>https://reaganleonardmusic.com/photos-videos</loc><lastmod>2026-09-09</lastmod><priority>0.5</priority></url>
+  <url><loc>https://reaganleonardmusic.com/faq</loc><lastmod>2026-09-09</lastmod><priority>0.5</priority></url>
+  <url><loc>https://reaganleonardmusic.com/corporate</loc><lastmod>2026-09-11</lastmod><priority>0.5</priority></url>
+  <url><loc>https://reaganleonardmusic.com/contact</loc><lastmod>2026-09-09</lastmod><priority>0.5</priority></url>
+  <url><loc>https://reaganleonardmusic.com/weddings</loc><lastmod>2026-09-11</lastmod><priority>0.5</priority></url>
+  <url><loc>https://reaganleonardmusic.com/song-list</loc><lastmod>2026-09-11</lastmod><priority>0.6</priority></url>
+  <url><loc>https://reaganleonardmusic.com/charlotte</loc><lastmod>2026-09-11</lastmod><priority>0.6</priority></url>
+  <url><loc>https://reaganleonardmusic.com/song-list</loc><lastmod>2026-09-11</lastmod><priority>0.6</priority></url>
+  <url><loc>https://reaganleonardmusic.com/charlotte</loc><lastmod>2026-09-11</lastmod><priority>0.6</priority></url>
+</urlset>

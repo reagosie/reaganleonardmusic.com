@@ -1,0 +1,8 @@
+# Deploy zips are rebuilt from site/ (80 MB each); keep them out of Git
+deploy/*.zip
+# Google API key for the monthly reviews job lives only on the server
+reviews-config.json
+__pycache__/
+*.tmp
+Thumbs.db
+.DS_Store

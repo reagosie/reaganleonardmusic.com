@@ -1,0 +1,18 @@
+PAGE: more-videos   (id=znaRf3, slug='more-videos', name='More Videos')
+  title      : More Videos - Reagan Leonard Music
+  description: See some more videos of Reagan Leonard performing live in Greenville, Spartanburg, Charlotte, Asheville, and throughout the southeast! (Some of these videos are real client events while others are music videos intended to show samples of my work.)
+  keywords   : ['More Videos']
+  focusKeyword: More Videos
+  noindex    : True
+
+==============================================================================
+BLOCK znMJv4  type=BlockLayout  slot=(body)  htmlId=
+  background: color rgb(221, 221, 221)
+  desktop minHeight=646 mobile minHeight=1044
+    <GridTextBox> zRJr7g  @(24,0) 1224x42
+        | Additional Video Samples
+    <GridVideo> zr8tPU  @(83,663) 503x284  src=https://www.youtube.com/embed/Dy9GmmOKAp0?h=null&playlist=Dy9GmmOKAp0&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0
+    <GridVideo> zNLkdC  @(84,60) 503x283  src=https://www.youtube.com/embed/cb8al5-ahCM?h=null&playlist=cb8al5-ahCM&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0
+    <GridVideo> zJhOPw  @(403,0) 400x222  src=https://www.youtube.com/embed/Ar4LiBfcGVQ?h=null&playlist=Ar4LiBfcGVQ&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0
+    <GridVideo> zbtM5a  @(403,412) 400x223  src=https://www.youtube.com/embed/Oh-GQ7zuUM4?h=null&playlist=Oh-GQ7zuUM4&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0
+    <GridVideo> zPEhE1  @(403,824) 400x224  src=https://www.youtube.com/embed/6M1ydzS44SI?h=null&playlist=6M1ydzS44SI&autoplay=0&controls=1&loop=0&autopause=0&playsinline=1&mute=0

@@ -1,0 +1,14 @@
+PAGE: faq   (id=zjcXCC, slug='faq', name='FAQ')
+  title      : FAQ - Reagan Leonard
+  description: Have a question about Reagan? It might be answered here! This is an FAQ list of all the most common questions people have about Reagan and the services he offers.
+  keywords   : ['FAQ', 'Questions', 'Frequently Asked Questions']
+  focusKeyword: FAQ
+  noindex    : None
+
+==============================================================================
+BLOCK z0sycR  type=BlockLayout  slot=(body)  htmlId=
+  background: image img_7996_2-AE0p9EBw9Lc4nvlB.jpg
+  desktop minHeight=610 mobile minHeight=652
+    <GridTextBox> zGLvDv  @(40,0) 1224x83
+        | FAQ
+    <GridEmbed> zivX2c  @(155,103) 1016x377  [custom HTML, 3886 chars]

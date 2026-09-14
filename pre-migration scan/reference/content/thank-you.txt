@@ -1,0 +1,17 @@
+PAGE: thank-you   (id=z7QSPy, slug='thank-you', name='Thank You')
+  title      : Thank You - Reagan Leonard Music
+  description: Thank you! Your interest form has been submitted and I should get back to you within 24 hours. If you do not hear from me by then, please send me a text at 864-706-5104.
+  keywords   : ['Thank You']
+  focusKeyword: Thank You
+  noindex    : True
+
+==============================================================================
+BLOCK zw10dd  type=BlockLayout  slot=(body)  htmlId=
+  background: color rgb(255, 255, 255)
+  desktop minHeight=626 mobile minHeight=527
+    <GridTextBox> zIgqR2  @(160,147) 930x246
+        | Thank You!
+        | Your event details have been submitted. I will reach back out to you via email as soon as I can! In the meantime, if you'd like to send me any additional information or questions, feel free to text/call/email me at:
+        | 864-706-5104
+        | reagan@reaganleonardmusic.com
+    <GridEmbed> z3Ij_M  @(463,412) 400x155  [JotForm, 180 chars]

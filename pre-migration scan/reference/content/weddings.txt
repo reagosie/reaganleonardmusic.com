@@ -1,0 +1,17 @@
+PAGE: weddings   (id=page_uS8dGgEmmLJ9HDS2fOXPo, slug='weddings', name='Weddings')
+  title      : Wedding Musician - Greenville, SC
+  description: Reagan Leonard provides wedding music in Greenville, SC for any type of wedding. If you are looking for live wedding music, message him today for a free quote!
+  keywords   : ['Wedding', 'Wedding Music', 'Wedding Musician']
+  focusKeyword: Wedding
+  noindex    : False
+
+==============================================================================
+BLOCK block_47qbsf45Qb0WIccyR9yuA  type=BlockLayout  slot=(body)  htmlId=
+  background: image z82_5728-Aq2NDXw3pLfNZbpZ.jpg
+  desktop minHeight=1042 mobile minHeight=1884
+    <GridTextBox> zWNQk5  @(24,0) 1224x108
+        | Wedding Packages
+    <GridEmbed> zAZI1X  @(160,0) 511x380  [custom HTML, 2293 chars]
+    <GridEmbed> zWkiln  @(160,711) 513x380  [custom HTML, 2481 chars]
+    <GridEmbed> zSw7Ct  @(600,0) 511x380  [custom HTML, 2394 chars]
+    <GridEmbed> zVeUyj  @(600,712) 512x380  [custom HTML, 2338 chars]
