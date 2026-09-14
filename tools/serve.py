@@ -5,13 +5,18 @@ Mimics the .htaccess rules so the site behaves locally exactly as it will on
 Hostinger: extensionless URLs (/pricing -> pricing.html), root-absolute asset
 paths, and 404.html for unknown paths.
 
-    py tools/serve.py            # http://localhost:8080/
-    py tools/serve.py 9000       # custom port
+    py tools/serve.py                       # http://localhost:8080/  (site/)
+    py tools/serve.py 9000                  # custom port
+    py tools/serve.py --root site-v2 8081   # preview version 2.0
 """
 import http.server, os, sys, mimetypes
 
-ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "site")
-PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8080
+_args = sys.argv[1:]
+_root = "site"
+if "--root" in _args:
+    _i = _args.index("--root"); _root = _args[_i + 1]; del _args[_i:_i + 2]
+ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), _root)
+PORT = int(_args[0]) if _args else 8080
 
 mimetypes.add_type("image/avif", ".avif")
 mimetypes.add_type("image/webp", ".webp")

@@ -61,6 +61,15 @@ CDN (AVIF 82 / WebP 90 / JPEG 90 — the settings are at the top of
 `name-375.avif` are width rungs; `name-768x768.avif` are the per-breakpoint
 crops that placed images and gallery tiles use.
 
+## Version 2.0 (redesign) — `site-v2/`
+
+Built by `py tools/v2/build.py` from `tools/v2/pages/*.html` (one body per
+page with a JSON `<!--meta-->` line) plus the shell, FAQ list and helpers in
+`tools/v2/build.py`. Preview: `py tools/serve.py --root site-v2 8081`. The
+build copies photos, `assets/data/reviews.json` and `refresh-reviews.php`
+from `site/`, so edit those in `site/` and rebuild. Version 1.1 in `site/`
+is untouched. Details in CHANGELOG.md.
+
 ## Previewing locally
 
     py tools/serve.py          # then open http://localhost:8080

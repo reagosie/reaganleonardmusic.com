@@ -1,0 +1,50 @@
+# reaganleonardmusic.com — Apache configuration (version 2.0)
+RewriteEngine On
+
+# HTTPS and the bare domain (only for the real domain, so a temporary
+# Hostinger domain can be used for testing)
+RewriteCond %{HTTP_HOST} ^(www\.)?reaganleonardmusic\.com$ [NC]
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://reaganleonardmusic.com%{REQUEST_URI} [L,R=301]
+
+# Old addresses from versions 1.x
+RewriteRule ^corporate$ /corporate-events [R=301,L]
+RewriteRule ^more-videos$ /photos-videos [R=301,L]
+RewriteRule ^preferred-vendors$ / [R=301,L]
+RewriteRule ^booking$ /contact [R=301,L]
+
+# /page -> page.html
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^([^/.]+)$ $1.html [L]
+
+ErrorDocument 404 /404.html
+Options -Indexes
+
+# The reviews refresh job reads its Google API key from reviews-config.json
+<Files "reviews-config.json">
+  Require all denied
+</Files>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/avif  "access plus 1 year"
+  ExpiresByType image/webp  "access plus 1 year"
+  ExpiresByType image/jpeg  "access plus 1 year"
+  ExpiresByType image/png   "access plus 1 year"
+  ExpiresByType font/woff2  "access plus 1 year"
+  ExpiresByType text/css    "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType application/json "access plus 1 day"
+  ExpiresByType text/html   "access plus 0 seconds"
+</IfModule>
+<IfModule mod_mime.c>
+  AddType image/avif .avif
+  AddType image/webp .webp
+  AddType font/woff2 .woff2
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>

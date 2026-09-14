@@ -1,0 +1,24 @@
+<!--meta {"title": "Song List | Reagan Leonard Music", "description": "The full song list of Reagan Leonard Music: acoustic covers across classics, country, folk, pop, rock, wedding, worship and Christmas songs. Search or request.", "crumb": "Song list", "priority": "0.8"} -->
+<section class="hero hero--page">
+  {{hero_bg:columns-guitar|full|50% 30%}}
+  <div class="container hero__inner">
+    <p class="eyebrow eyebrow--light">Song list</p>
+    <h1 class="hero__title">{{song_count}} songs, from Sinatra to Ed Sheeran</h1>
+    <p class="hero__lede">Everything I play, in ten genres. Search by song or artist. Don't see yours? With enough notice before your event, I'll learn it.</p>
+  </div>
+</section>
+
+<section class="section section--cream">
+  <div class="container songs">
+    <div class="songs__tools">
+      <input class="songs__search" type="search" placeholder="Search by song or artist…" aria-label="Search the song list" autocomplete="off">
+      <span class="songs__count">{{song_count}} songs</span>
+    </div>
+    {{song_chips}}
+    {{songs}}
+    <div class="songs__empty"><p class="mb-0">No match, but that doesn't mean no. <a href="/contact#request-quote" data-cta>Ask me about your song</a> and I'll let you know if I can learn it in time.</p></div>
+    <div class="section__cta"><a class="btn btn--green" href="/contact#request-quote" data-cta>Check my availability</a><a class="text-link" href="/weddings">Wedding packages</a></div>
+  </div>
+</section>
+
+{{cta_text:Have a song in mind that isn't here?|Tell me the song and the date. With enough notice, I'll learn it.}}

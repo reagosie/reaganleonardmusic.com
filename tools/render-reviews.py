@@ -54,7 +54,7 @@ def main():
     for page, ids in data["featured"].items():
         path = os.path.join(SITE, f"{page}.html")
         if not os.path.exists(path):
-            print(f"{page}: no such page, skipped"); bad += 1; continue
+            continue                      # featured list for a page of another site version
         missing = [i for i in ids if i not in by_id]
         if missing:
             print(f"{page}: unknown review id(s) {missing}, skipped"); bad += 1; continue

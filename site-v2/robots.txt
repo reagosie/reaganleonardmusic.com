@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you
+Disallow: /refresh-reviews.php
+
+Sitemap: https://reaganleonardmusic.com/sitemap.xml

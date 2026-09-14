@@ -38,6 +38,31 @@
    "nicholas-giammanco",
    "greg-and-rebecca-pilette",
    "howard-c"
+  ],
+  "corporate-events": [
+   "gcm",
+   "leighanne-howard",
+   "jalyn-whitlock"
+  ],
+  "private-parties": [
+   "rhonda-marchant",
+   "kelli-mcguire",
+   "sara-walls"
+  ],
+  "asheville": [
+   "scott-halpern",
+   "allie-poterala",
+   "nicholas-giammanco"
+  ],
+  "about": [
+   "haleigh-manley",
+   "greg-and-rebecca-pilette",
+   "steven-suits"
+  ],
+  "service-area": [
+   "nicholas-giammanco",
+   "greg-and-rebecca-pilette",
+   "howard-c"
   ]
  },
  "reviews": [
@@ -61,7 +86,7 @@
    "when": "3 months ago",
    "date": "",
    "text": "Reagan played music at my son’s rehearsal dinner welcome party and did a wonderful job! He was very professional to deal with and offers an extensive song list. I highly recommend Reagan!!",
-   "role": "",
+   "role": "rehearsal dinner welcome party",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -84,8 +109,9 @@
    "when": "2 years ago",
    "date": "",
    "text": "We had the pleasure of having Reagan Leonard perform at our summer party, and he was absolutely fantastic! His music added the perfect touch to our event, creating a wonderful atmosphere that everyone enjoyed. Reagan is not only a talented musician but also a true professional. We received numerous compliments from our guests about his performance. We would highly recommend him for any event and will definitely hire him again in the future. Thank you, Reagan, for making our party so memorable!",
-   "role": "",
-   "url": "https://maps.google.com/?cid=10076934354409939073"
+   "role": "summer party",
+   "url": "https://maps.google.com/?cid=10076934354409939073",
+   "excerpt": "We had the pleasure of having Reagan Leonard perform at our summer party, and he was absolutely fantastic! His music added the perfect touch to our event… We received numerous compliments from our guests about his performance. We would highly recommend him for any event and will definitely hire him again in the future."
   },
   {
    "id": "corey-cisowski",
@@ -95,7 +121,7 @@
    "when": "a year ago",
    "date": "",
    "text": "Reagan was very professional and easy to work with. He was a great performer at our event and we recommend him to anyone in the area looking for a live musician. We will certainly be working with him again in the future!",
-   "role": "",
+   "role": "company event",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -118,8 +144,9 @@
    "when": "3 years ago",
    "date": "",
    "text": "Reagan was the perfect addition to our wedding celebration! All the guests loved his sound and he was so accommodating by making sure everyone was happy and he made sure to play all the songs we requested. Reagan even took the time to learn a song we wanted him to play for our first dance. Highly recommend for any wedding, cocktail party or celebration!",
-   "role": "",
-   "url": "https://maps.google.com/?cid=10076934354409939073"
+   "role": "wedding",
+   "url": "https://maps.google.com/?cid=10076934354409939073",
+   "excerpt": "Reagan was the perfect addition to our wedding celebration! All the guests loved his sound and he was so accommodating… Reagan even took the time to learn a song we wanted him to play for our first dance. Highly recommend for any wedding, cocktail party or celebration!"
   },
   {
    "id": "katherine-holtzman",
@@ -153,8 +180,9 @@
    "when": "3 years ago",
    "date": "",
    "text": "What a talented artist Reagan Leonard is!!! We were able to book Reagan for my sons engagement party and he did not disappoint! He provided a list of songs which we were able to choose from to create a very customized playlist. He has an incredible voice that he accompanies with superb guitar playing. Reagan was very professional and played for 3 hours straight without taking a break. We had a steady stream of wonderful music. If we were having the wedding in Greenville, I would definitely book Reagan again!",
-   "role": "",
-   "url": "https://maps.google.com/?cid=10076934354409939073"
+   "role": "engagement party",
+   "url": "https://maps.google.com/?cid=10076934354409939073",
+   "excerpt": "What a talented artist Reagan Leonard is!!! We were able to book Reagan for my sons engagement party and he did not disappoint! He provided a list of songs which we were able to choose from to create a very customized playlist. He has an incredible voice that he accompanies with superb guitar playing… played for 3 hours straight without taking a break."
   },
   {
    "id": "kelli-mcguire",
@@ -164,7 +192,7 @@
    "when": "2 years ago",
    "date": "",
    "text": "Reagan did a fantastic job playing at my son’s wedding rehearsal dinner. The venue was very crowded and loud but he was able to play beautifully throughout the evening. He even played a special request that he hadn’t played publicly before! Such a kind and thoughtful person! 100% recommend.",
-   "role": "",
+   "role": "rehearsal dinner",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -186,8 +214,9 @@
    "when": "3 years ago",
    "date": "",
    "text": "Reagan played at my daughter's bridal shower at City Scape Winery in Greenville and he created a perfect ambiance for a beautiful afternoon! Reagan was very responsive so we could discuss the details and what we were hoping to achieve which made the planning very easy. He has a great range of songs and played exactly what we were looking for. It was a perfect afternoon and Reagan was a big part of why! I highly recommend him!",
-   "role": "",
-   "url": "https://maps.google.com/?cid=10076934354409939073"
+   "role": "bridal shower, Greenville",
+   "url": "https://maps.google.com/?cid=10076934354409939073",
+   "excerpt": "Reagan played at my daughter's bridal shower at City Scape Winery in Greenville and he created a perfect ambiance for a beautiful afternoon! … He has a great range of songs and played exactly what we were looking for. It was a perfect afternoon and Reagan was a big part of why!"
   },
   {
    "id": "leighanne-howard",
@@ -220,7 +249,7 @@
    "when": "3 years ago",
    "date": "",
    "text": "Reagan did an outstanding job performing at my brother's rehearsal dinner! Not only was he a talented musician, he made the booking process seamless and was easy to communicate with. I would highly recommend Reagan to perform at any event and would love to have him play again at one of ours!",
-   "role": "",
+   "role": "rehearsal dinner",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -231,7 +260,7 @@
    "when": "3 years ago",
    "date": "",
    "text": "Reagan did such a fabulous job for us, and made the day all the more special by helping us to play some of our favorite music - even learning some songs with very little notice! We are so grateful to have found him, and would highly recommend!",
-   "role": "",
+   "role": "wedding",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -242,7 +271,7 @@
    "when": "4 years ago",
    "date": "",
    "text": "We had Reagan play for our son’s rehearsal dinner. He was amazing. The song spectrum was perfect, he has a great voice, and he even prepared a special song by request for me. Having him perform really made the celebration perfect.",
-   "role": "",
+   "role": "rehearsal dinner",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -253,8 +282,9 @@
    "when": "4 years ago",
    "date": "",
    "text": "We hired Reagan to play at my husbands birthday party. We had a wonderful experience with him and he added so much to the festivities. He is a pleasure to work with, communicates well, and was completely reliable. We loved his style and play list. We had several guests comment on how much they enjoyed him at the end of the night. We would hire him again in a heart beat! Highly recommend.",
-   "role": "",
-   "url": "https://maps.google.com/?cid=10076934354409939073"
+   "role": "birthday party",
+   "url": "https://maps.google.com/?cid=10076934354409939073",
+   "excerpt": "We hired Reagan to play at my husbands birthday party. We had a wonderful experience with him and he added so much to the festivities. He is a pleasure to work with, communicates well, and was completely reliable… We would hire him again in a heart beat! Highly recommend."
   },
   {
    "id": "morgan-mundell",
@@ -275,7 +305,7 @@
    "when": "4 years ago",
    "date": "",
    "text": "Reagan was amazing to work with and super talented! Our wedding music was beautiful and I highly recommend him to anyone!",
-   "role": "",
+   "role": "wedding",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -286,7 +316,7 @@
    "when": "4 years ago",
    "date": "",
    "text": "Phenomenal performance!! Attention to detail on what was asked and Reagan delivered way more than expected. Intimate session for my fiancé and I in a park. Song selection, musical acumen, and the ability to capture the right moment made for a perfect evening. Would definitely recommend to anyone!",
-   "role": "",
+   "role": "private session in a park",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -320,7 +350,7 @@
    "when": "3 years ago",
    "date": "",
    "text": "Reagan was awesome to work with. He was thoughtful and professional. He made our rehearsal dinner just perfect!",
-   "role": "",
+   "role": "rehearsal dinner",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -342,7 +372,7 @@
    "when": "Edited 3 months ago",
    "date": "",
    "text": "Reagan was professional and easy to work with during the event. He’s very talented and I look forward to working with him again in the future.",
-   "role": "",
+   "role": "event",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -353,7 +383,7 @@
    "when": "3 years ago",
    "date": "",
    "text": "He added so much to our wedding ceremony, it sounded so beautiful!!! He was very helpful in choosing my songs and answered every question I had with such kindness!! Completely would recommend to anyone who was looking for a guitarist!!!",
-   "role": "",
+   "role": "wedding ceremony",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -364,7 +394,7 @@
    "when": "2 years ago",
    "date": "",
    "text": "Reagan was the best choice for our small, intimate wedding! We would choose him 1,000 times over!",
-   "role": "",
+   "role": "small wedding",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -375,7 +405,7 @@
    "when": "a year ago",
    "date": "",
    "text": "Reagan showed up on time and did a great job! Very friendly and loud enough for everyone to hear.",
-   "role": "",
+   "role": "private event",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
@@ -397,7 +427,7 @@
    "when": "a year ago",
    "date": "",
    "text": "Reagan never disappoints!",
-   "role": "",
+   "role": "repeat client",
    "url": "https://maps.google.com/?cid=10076934354409939073"
   },
   {
