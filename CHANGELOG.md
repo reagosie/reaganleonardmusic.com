@@ -12,6 +12,9 @@ and data in `tools/v2/build.py`). Version 1.1 stays in `site/` untouched.
 - New look: Fraunces (serif headlines) + Inter (text), cream / deep green /
   gold palette, full-bleed photo heroes with the header floating over them,
   rounded cards, a proof bar under the home hero, and a phone booking bar.
+- Home page reviews (2026-09-14): a carousel of all 32 Google reviews with
+  arrows (one card per click; swipe on a phone), same as version 1.1. The
+  Reviews page still shows them all at once.
 - Header on every page: Weddings · Corporate · Private Parties · Pricing ·
   Song List · Reviews · Photos & Videos · FAQ + "Check availability". The
   phone menu adds About, Where I Play and Contact.
@@ -81,15 +84,17 @@ cache in hPanel. Ideas and reasoning are in [REDESIGN-IDEAS.md](REDESIGN-IDEAS.m
   Google reviews · Serving the Upstate & Charlotte), and
   two buttons: "Check my availability" and "Watch me play" (scrolls to the
   promo reel). Same photo.
-- **Reviews**: the Elfsight widget is replaced by three hand-picked quotes
-  from your 32 five-star Google reviews (Kelsey Herring, GCM, Rhonda
-  Marchant), each linking to the Google listing, plus a line linking to all
-  reviews on Google, Zola and The Bash. You can cancel Elfsight once you are
-  happy with this. Weddings shows three wedding reviews (Courtney Bramlett,
-  Katherine Holtzman, Morgan Mundell), Corporate three event reviews (GCM,
-  Leighanne Howard, Jalyn Whitlock), and /charlotte two travel/out-of-state
-  reviews plus one from The Bash (Davidson, NC). Long quotes are shortened
-  with "…"; no words were changed.
+- **Reviews**: the Elfsight widget is replaced by a carousel of all 32
+  five-star Google reviews (2026-09-14: was three quotes). Three cards show
+  at a time on a computer, two on a tablet, one on a phone; arrows move one
+  card at a time, and swiping works on a phone. The hand-picked quotes come first
+  (Kelsey Herring, GCM, Rhonda Marchant). Each card links to the Google
+  listing, and a line below links to all reviews on Google, Zola and The
+  Bash. Weddings shows three wedding reviews (Courtney Bramlett, Katherine
+  Holtzman, Morgan Mundell), Corporate three event reviews (GCM, Leighanne
+  Howard, Jalyn Whitlock), and /charlotte two reviews from The Bash
+  (Davidson, NC and Highlands, NC) plus the Pilettes. Long quotes are
+  shortened with "…"; no words were changed.
 - **Live review count** (2026-09-14): the number of Google reviews and the
   quotes are no longer typed into the pages. They come from
   `assets/data/reviews.json`, which `refresh-reviews.php` updates from
@@ -118,15 +123,29 @@ cache in hPanel. Ideas and reasoning are in [REDESIGN-IDEAS.md](REDESIGN-IDEAS.m
   index"). A search box that filters as you type, jump links to each genre,
   and a "can't find it? ask me" note.
 - 2026-09-14: replaced with the updated list from "Full Song List.pdf":
-  248 songs in ten genres (Folk is back, Worship Songs added).
+  248 songs in ten genres (Folk is back, Worship Songs added). The genre
+  pills now filter the list instead of jumping to a section; several can be
+  selected at once, a "Clear filters" button appears when any is selected,
+  and the search box has its own clear button in the site's colours.
 - The songs live in `tools/song-list.json`; `py tools/render-song-list.py`
   writes them into the page.
 
 ### Service area wording (2026-09-14)
-- Footer, home page proof line and structured data, weddings FAQ excerpt and
-  the FAQ answer now say: based in Greer, SC, playing within about 250 miles:
-  Upstate South Carolina, Western North Carolina, Charlotte, North Georgia
-  and East Tennessee. (The old FAQ said 500 miles.)
+- Footer on every page: "Based in Greer, SC. Serving all of Upstate SC,
+  Western NC, Charlotte, North GA, and East TN." Home page proof line,
+  structured data, weddings FAQ excerpt and the FAQ answer say the same
+  area, within about 250 miles of Greer. (The old FAQ said 500 miles.)
+
+### Wording (2026-09-14)
+- All six FAQ answers are written in the first person ("My minimum
+  performance fee…", "I play all sorts of events…").
+- Wherever the site talks about learning a requested song (FAQ, weddings
+  "Can you play our song?", Charlotte page) it now says: "I can probably
+  learn it but if I don't think I can do it justice, I will be honest and
+  straightforward with you about that."
+- Charlotte page reworded in Reagan's own words (sound system and
+  microphone, detailed invoice with travel fees, deposit and contract secure
+  the date, wedding packages, growing song list).
 
 ### New: /charlotte
 - A page for Charlotte-area work: what you bring, how travel is priced,
@@ -143,6 +162,15 @@ cache in hPanel. Ideas and reasoning are in [REDESIGN-IDEAS.md](REDESIGN-IDEAS.m
   search result.
 
 ### Tools
+- Style and script links carry a version code (`site.css?v=…`), written by
+  `py tools/stamp-assets.py` after any edit to `site.css` or `site.js`.
+  Without it, browsers and the Hostinger CDN could show a new page with a
+  style sheet saved up to a month earlier, and the page would look broken.
+  The local preview server (`tools/serve.py`) also tells browsers not to
+  keep saved copies at all.
+- `tools/render-reviews.py` fills the home page carousel with every Google
+  review (`data-reviews="all"`) and the other pages with their featured
+  quotes.
 - `tools/verify.py` now checks SEO tags and links only; add `--full` for the
   old 1:1 text comparison with the archived site (no longer expected to pass).
 - `tools/sync-shell.py` knows about /charlotte.

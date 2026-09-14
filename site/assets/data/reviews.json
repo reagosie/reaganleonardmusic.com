@@ -35,9 +35,9 @@
    "jalyn-whitlock"
   ],
   "charlotte": [
-   "nicholas-giammanco",
-   "greg-and-rebecca-pilette",
-   "howard-c"
+   "howard-c",
+   "dawn-d",
+   "greg-and-rebecca-pilette"
   ],
   "corporate-events": [
    "gcm",
@@ -439,6 +439,17 @@
    "date": "",
    "text": "Reagan was on time, professional and performed exceptionally well.",
    "role": "private party, Davidson, NC",
+   "url": "https://www.thebash.com/singer-guitarist/reagan-leonard-music"
+  },
+  {
+   "id": "dawn-d",
+   "source": "The Bash",
+   "name": "Dawn D.",
+   "stars": 5,
+   "when": "",
+   "date": "",
+   "text": "Reagan is such a talented, professional individual. His music is beautiful and he is a pleasure to work with.",
+   "role": "private party, Highlands, NC",
    "url": "https://www.thebash.com/singer-guitarist/reagan-leonard-music"
   }
  ]

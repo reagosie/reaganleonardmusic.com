@@ -20,6 +20,7 @@ site/                       ← THE WEBSITE. Upload this folder's contents to pu
 tools/                      ← helpers. Optional; nothing here is needed to deploy or edit.
 ├── serve.py                local preview:  py tools/serve.py  →  http://localhost:8080
 ├── sync-shell.py           push a header/footer change to all 13 pages
+├── stamp-assets.py         put a fresh version code on the site.css / site.js links after editing them
 ├── verify.py               compare site/ with the archived original (SEO tags, text, links)
 ├── measure-weight.py       real page-weight comparison, old site vs new
 ├── make-images.py          regenerate image derivatives from originals (only if you add photos)
@@ -89,9 +90,10 @@ on Hostinger.
 
 - **Reviews** (home, weddings, corporate, /welcome, /charlotte) come from
   `site/assets/data/reviews.json`: the Google rating and review count, every
-  review, and under `"featured"` which review ids each page shows. `site.js`
-  loads that file and fills in the count ("N five-star Google reviews") and
-  the quote cards. The pages also hold a static copy of the cards (for
+  review, and under `"featured"` which review ids each page shows. The home
+  page is different: its carousel shows every Google review, featured ones
+  first. `site.js` loads that file and fills in the count ("N five-star
+  Google reviews") and the quote cards. The pages also hold a static copy of the cards (for
   no-JavaScript visitors and search engines); refresh it with
   `py tools/render-reviews.py` after editing the JSON.
   - `site/refresh-reviews.php` runs monthly on Hostinger (cron) and pulls the
@@ -106,6 +108,11 @@ on Hostinger.
   Edit the JSON, then run `py tools/render-song-list.py` to write them into
   the page.
 - **Header and footer**: `tools/partials/`, then `py tools/sync-shell.py`.
+- **Styles or scripts** (`site/assets/css/site.css`, `site/assets/js/site.js`):
+  after editing, run `py tools/stamp-assets.py`. It puts a new version code on
+  the links (`site.css?v=…`) so browsers and the Hostinger CDN fetch the changed
+  file instead of a copy saved up to a month ago. Version 2.0's build does this
+  itself.
 
 `tools/generate-pages.py` was the one-time migration from the builder. It
 does not know about the v1.1 changes; running it again would undo them.

@@ -3,7 +3,8 @@ serve.py — local preview server for site/
 
 Mimics the .htaccess rules so the site behaves locally exactly as it will on
 Hostinger: extensionless URLs (/pricing -> pricing.html), root-absolute asset
-paths, and 404.html for unknown paths.
+paths, and 404.html for unknown paths. It also tells the browser not to keep
+saved copies of files, so every refresh shows your latest edits.
 
     py tools/serve.py                       # http://localhost:8080/  (site/)
     py tools/serve.py 9000                  # custom port
@@ -51,6 +52,12 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 self.wfile.write(body)
                 return
         super().send_error(code, message, explain)
+
+    def end_headers(self):
+        # Browsers keep saved copies of CSS/JS and a normal refresh reuses them.
+        # For local testing, always send the current file.
+        self.send_header("Cache-Control", "no-store")
+        super().end_headers()
 
     def log_message(self, fmt, *args):
         pass  # quiet

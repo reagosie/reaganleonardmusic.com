@@ -5,7 +5,7 @@
    4. Song list search and genre chips
    5. Gallery lightbox
    6. Lazy third-party embeds (JotForm) and JotForm iframe height
-   7. Google reviews: count and quotes from /assets/data/reviews.json
+   7. Google reviews: count and quotes from /assets/data/reviews.json; home page carousel
    8. Reveal-on-scroll animation */
 (function () {
   "use strict";
@@ -54,25 +54,60 @@
     videos.forEach(function (v) { vw.observe(v); });
   }
 
-  /* 4. song search */
-  var songSearch = $(".songs__search");
+  /* ------------------------------------------------------------------ */
+  /* 4. Song list (/song-list): search box + genre filter buttons.     */
+  /*     Genres are multi-select; "Clear" buttons reset each control.   */
+  /* ------------------------------------------------------------------ */
+  var songSearch = document.querySelector(".songs__search");
   if (songSearch) {
-    var songs = $(".songs");
-    var groups = $$(".songs__group", songs);
-    var countEl = $(".songs__count", songs);
-    var total = $$(".songs__list li", songs).length;
-    var filter = function () {
-      var q = songSearch.value.trim().toLowerCase(), shown = 0;
+    var songs = songSearch.closest(".songs");
+    var groups = Array.prototype.slice.call(songs.querySelectorAll(".songs__group"));
+    var countEl = songs.querySelector(".songs__count");
+    var chips = Array.prototype.slice.call(songs.querySelectorAll(".chip[data-genre]"));
+    var clearChips = songs.querySelector(".chip--clear");
+    var clearSearch = songs.querySelector(".songs__clear");
+    var total = songs.querySelectorAll(".songs__list li").length;
+    var selected = {};
+    function filterSongs() {
+      var q = songSearch.value.trim().toLowerCase();
+      var anyGenre = Object.keys(selected).length > 0;
+      var shown = 0;
       groups.forEach(function (g) {
+        var on = !anyGenre || selected[g.id];
         var visible = 0;
-        $$("li", g).forEach(function (li) { var hit = !q || li.textContent.toLowerCase().indexOf(q) !== -1; li.hidden = !hit; if (hit) visible++; });
-        g.hidden = visible === 0; shown += visible;
+        Array.prototype.forEach.call(g.querySelectorAll("li"), function (li) {
+          var hit = on && (!q || li.textContent.toLowerCase().indexOf(q) !== -1);
+          li.hidden = !hit;
+          if (hit) visible++;
+        });
+        g.hidden = visible === 0;
+        shown += visible;
       });
       songs.classList.toggle("songs--empty", shown === 0);
-      countEl.textContent = q ? shown + " of " + total + " songs" : total + " songs";
-    };
-    songSearch.addEventListener("input", filter);
-    filter();
+      countEl.textContent = (q || anyGenre) ? shown + " of " + total + " songs" : total + " songs";
+      if (clearChips) clearChips.hidden = !anyGenre;
+      if (clearSearch) clearSearch.hidden = !q;
+    }
+    chips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        var id = chip.getAttribute("data-genre");
+        if (selected[id]) delete selected[id]; else selected[id] = true;
+        chip.setAttribute("aria-pressed", selected[id] ? "true" : "false");
+        filterSongs();
+      });
+    });
+    if (clearChips) clearChips.addEventListener("click", function () {
+      selected = {};
+      chips.forEach(function (chip) { chip.setAttribute("aria-pressed", "false"); });
+      filterSongs();
+    });
+    if (clearSearch) clearSearch.addEventListener("click", function () {
+      songSearch.value = "";
+      filterSongs();
+      songSearch.focus();
+    });
+    songSearch.addEventListener("input", filterSongs);
+    filterSongs();
   }
 
   /* 5. lightbox */
@@ -159,16 +194,40 @@
         };
         $$("[data-reviews]").forEach(function (boxEl) {
           var key = boxEl.getAttribute("data-reviews"), list;
-          if (key === "all") list = fromGoogle.filter(function (r) { return r.text; });
-          else list = ((data.featured || {})[key] || []).map(function (id) { return byId[id]; }).filter(Boolean);
-          if (list.length) boxEl.innerHTML = list.map(card).join("");
+          if (key === "all") {          // every Google review with text; the page's featured ones first
+            var first = (data.featured || {})[boxEl.getAttribute("data-reviews-first")] || [];
+            list = first.map(function (id) { return byId[id]; }).filter(Boolean)
+              .concat(fromGoogle.filter(function (r) { return r.text && first.indexOf(r.id) === -1; }));
+          } else list = ((data.featured || {})[key] || []).map(function (id) { return byId[id]; }).filter(Boolean);
+          if (list.length) { boxEl.innerHTML = list.map(card).join(""); boxEl.dispatchEvent(new Event("scroll")); }
         });
       })
       .catch(function () { /* the static copy in the HTML stays */ });
   }
 
+  /* 7b. review carousel (home page): arrows move one card at a time; swiping and trackpads work anyway */
+  $$(".carousel").forEach(function (carousel) {
+    var track = $(".reviews--carousel", carousel), prev = $(".carousel__arrow--prev", carousel), next = $(".carousel__arrow--next", carousel);
+    if (!track || !prev || !next) return;
+    function update() {
+      prev.disabled = track.scrollLeft <= 2;
+      next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
+    }
+    function move(dir) {
+      var cardEl = track.querySelector(".review");
+      var gap = parseFloat(getComputedStyle(track).columnGap) || 24;
+      track.scrollBy({ left: dir * (cardEl ? cardEl.getBoundingClientRect().width + gap : track.clientWidth), behavior: "smooth" });
+    }
+    prev.addEventListener("click", function () { move(-1); });
+    next.addEventListener("click", function () { move(1); });
+    track.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    update();
+  });
+
   /* 8. reveal */
-  var targets = $$(".card, .review, .step, .timeline__item, .package, .region, .section-head, .split__text, .split__media, .videos figure");
+  var targets = $$(".card, .review, .step, .timeline__item, .package, .region, .section-head, .split__text, .split__media, .videos figure")
+    .filter(function (el) { return !el.closest(".reviews--carousel"); });   // carousel cards scroll sideways; no fade-in
   if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     targets.forEach(function (el) { el.classList.add("reveal"); });
     var rw = new IntersectionObserver(function (entries) {

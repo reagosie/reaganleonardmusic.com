@@ -4,6 +4,8 @@ render-reviews.py — write the featured reviews and the review count into the p
 The pages carry a static copy of the quotes so they show without JavaScript and
 so search engines see them. This script rewrites that copy from
 site/assets/data/reviews.json (the file the monthly refresh job updates).
+A block marked data-reviews="all" (the home page carousel) gets every Google
+review; any other value is a key in the "featured" lists of the JSON.
 site.js loads the same JSON at page load and replaces the static copy, so the
 static copy only needs refreshing when you want the HTML itself up to date
 (before a deploy is a good time).
@@ -51,16 +53,23 @@ def main():
              f'<a href="{google_url}" target="_blank" rel="noopener">Google</a>, and more on '
              f'<a href="{ZOLA}" target="_blank" rel="noopener">Zola</a> and <a href="{BASH}" target="_blank" rel="noopener">The Bash</a>.</p>')
     bad = 0
-    for page, ids in data["featured"].items():
+    for page in sorted(f[:-5] for f in os.listdir(SITE) if f.endswith(".html")):
         path = os.path.join(SITE, f"{page}.html")
-        if not os.path.exists(path):
-            continue                      # featured list for a page of another site version
+        s = io.open(path, encoding="utf-8").read()
+        m = re.search(r'<div class="reviews[^"]*" data-reviews="([^"]*)"(?: data-reviews-first="([^"]*)")?>', s)
+        if not m:
+            continue                      # page has no review block
+        if m.group(1) == "all":           # every Google review with text; the featured ones first
+            first = data["featured"].get(m.group(2) or "", [])
+            ids = first + [r["id"] for r in data["reviews"]
+                           if r.get("source") == "Google" and r.get("text") and r["id"] not in first]
+        else:
+            ids = data["featured"].get(m.group(1), [])
         missing = [i for i in ids if i not in by_id]
         if missing:
             print(f"{page}: unknown review id(s) {missing}, skipped"); bad += 1; continue
-        s = io.open(path, encoding="utf-8").read()
-        block = f'<div class="reviews" data-reviews="{page}">' + "".join(card(by_id[i]) for i in ids) + "</div>"
-        s, n1 = re.subn(r'<div class="reviews(?: reviews--two)?"(?: data-reviews="[^"]*")?>.*?</article></div>', block, s, count=1, flags=re.S)
+        block = m.group(0) + "".join(card(by_id[i]) for i in ids) + "</div>"
+        s, n1 = re.subn(r'<div class="reviews[^"]*" data-reviews="[^"]*"(?: data-reviews-first="[^"]*")?>.*?</article></div>', block, s, count=1, flags=re.S)
         s, n2 = re.subn(r'<p class="reviews__links">.*?</p>', links, s, count=1, flags=re.S)
         s, n3 = re.subn(r'<li(?: data-review-claim)?>\d+ (?:five-star )?Google reviews(?:, [\d.]+ average)?</li>',
                         f'<li data-review-claim>{claim}</li>', s, flags=re.S)

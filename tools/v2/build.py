@@ -12,7 +12,7 @@ two versions share one set of photos and one reviews file.
 Run from the repo root:   py tools/v2/build.py
 Preview:                  py tools/serve.py --root site-v2 8081
 """
-import html, io, json, os, re, shutil, sys
+import hashlib, html, io, json, os, re, shutil, sys
 from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -53,7 +53,7 @@ FAQ = [
  ("events", "What kinds of events do you play?",
   "Weddings (ceremony, cocktail hour and reception), corporate events, and private parties such as rehearsal dinners, birthdays, anniversaries, engagement parties and holiday parties. If your event needs live acoustic music and the date is free, the answer is almost certainly yes."),
  ("songs", "Can you play our song?",
-  f"Almost certainly. The current <a href=\"/song-list\">song list</a> has {SONG_TOTAL} songs across ten genres, and with enough notice before your date I will learn songs on request, including first-dance and ceremony songs."),
+  f"Almost certainly. The current <a href=\"/song-list\">song list</a> has {SONG_TOTAL} songs across ten genres, and with enough notice before your date I will learn songs on request, including first-dance and ceremony songs. This list is always growing and if you have a special request, just ask me. I can probably learn it but if I don't think I can do it justice, I will be honest and straightforward with you about that."),
  ("equipment", "Do you bring your own sound equipment?",
   "Yes. All I need is a power outlet or an extension cord nearby. My setup is a Bose L1 Compact sound system, a microphone and stand, a Boss RC-30 looper on request, and all the cables, and it fills indoor and outdoor venues of up to 500 guests. I play a Takamine acoustic guitar."),
  ("travel", "How far will you travel?",
@@ -157,6 +157,24 @@ def reviews_block(key):
     return f'<div class="reviews" data-reviews="{key}">' + "".join(review_card(by_id[i]) for i in ids if i in by_id) + "</div>"
 
 
+ARROW = ('<button class="carousel__arrow carousel__arrow--{0}" type="button" aria-label="{1} reviews">'
+         '<svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="{2}" fill="none" stroke="currentColor" '
+         'stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>')
+
+
+def reviews_carousel(first_key):
+    """Every Google review with text in a sideways-scrolling track with arrows;
+    the page's featured reviews come first. site.js reads the same order from
+    reviews.json at page load (data-reviews="all")."""
+    first = REVIEWS["featured"].get(first_key, [])
+    by_id = {r["id"]: r for r in REVIEWS["reviews"]}
+    ids = first + [r["id"] for r in REVIEWS["reviews"] if r.get("source") == "Google" and r.get("text") and r["id"] not in first]
+    return ('<div class="carousel">' + ARROW.format("prev", "Previous", "M15 5l-7 7 7 7") +
+            f'<div class="reviews reviews--carousel" data-reviews="all" data-reviews-first="{first_key}">' +
+            "".join(review_card(by_id[i]) for i in ids if i in by_id) + "</div>" +
+            ARROW.format("next", "Next", "M9 5l7 7-7 7") + "</div>")
+
+
 def reviews_wall():
     rs = [r for r in REVIEWS["reviews"] if r.get("source") == "Google" and r.get("text")]
     return '<div class="review-wall" data-reviews="all">' + "".join(review_card(r) for r in rs) + "</div>"
@@ -174,9 +192,12 @@ def slug(s):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", s.lower())).strip("-")
 
 
+CLEAR_BTN = '<button class="chip chip--clear" type="button" hidden>Clear filters \u2715</button></div>'
+
+
 def songs_block():
-    chips = '<div class="chips" aria-label="Jump to a genre">' + "".join(
-        f'<a class="chip" href="#genre-{slug(g["genre"])}">{html.escape(g["genre"])} <span>{len(g["songs"])}</span></a>' for g in SONGS) + "</div>"
+    chips = '<div class="chips" role="group" aria-label="Filter by genre">' + "".join(
+        f'<button class="chip" type="button" data-genre="genre-{slug(g["genre"])}" aria-pressed="false">{html.escape(g["genre"])} <span>{len(g["songs"])}</span></button>' for g in SONGS) + CLEAR_BTN
     groups = []
     for g in SONGS:
         items = "".join(f'<li>{html.escape(s["title"])}' + (f' <span>– {html.escape(s["artist"])}</span>' if s.get("artist") else "") + "</li>" for s in g["songs"])
@@ -343,7 +364,7 @@ def footer_html():
     <div class="footer__grid">
       <div class="footer__brand">
         <img src="/assets/img/rlm-logo-full-white-375.png" width="375" height="248" alt="{NAME}" loading="lazy" decoding="async">
-        <p>Solo acoustic singer-guitarist for weddings, corporate events and private parties. Based in Greer, SC and playing within about 250 miles.</p>
+        <p>Solo acoustic singer-guitarist for weddings, corporate events and private parties. Based in Greer, SC. Serving all of Upstate SC, Western NC, Charlotte, North GA, and East TN.</p>
         <div class="footer__social">{social}</div>
       </div>
       <div>
@@ -438,8 +459,14 @@ def head_html(meta, path):
 <link rel="apple-touch-icon" href="/assets/img/favicon-180.png">
 <link rel="preload" href="/assets/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="stylesheet" href="/assets/css/site.css?v={asset_version("assets/css/site.css")}">
 <script type="application/ld+json">{ld}</script>'''
+
+
+def asset_version(rel):
+    """Short hash of a file in site-v2/, put on its link so browsers and the CDN
+    fetch the new file after every change instead of a month-old saved copy."""
+    return hashlib.sha1(open(os.path.join(OUT, rel.replace("/", os.sep)), "rb").read()).hexdigest()[:8]
 
 
 # --------------------------------------------------------------------------- placeholders
@@ -472,6 +499,8 @@ def expand(body, path):
             return f'<div class="hero__bg" style="--pos:{pos}">' + picture(base, variant, "", "100vw", "", "eager", "high") + "</div>"
         if name == "reviews":
             return reviews_block(parts[0])
+        if name == "reviews_carousel":   # {{reviews_carousel:featured-key}}
+            return reviews_carousel(parts[0] if parts else "index")
         if name == "video":
             return video_block(parts[0], parts[1] if len(parts) > 1 else "Video")
         if name == "faq":       # {{faq:key,key,key}}
@@ -498,7 +527,7 @@ def page_html(meta, body, path):
 {body}
 </main>
 {footer_html()}
-<script src="/assets/js/site.js" defer></script>
+<script src="/assets/js/site.js?v={asset_version("assets/js/site.js")}" defer></script>
 </body>
 </html>
 '''

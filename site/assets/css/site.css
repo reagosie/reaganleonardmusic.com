@@ -1376,6 +1376,45 @@ iframe { border-width: 0; }
   .reviews, .reviews--two { grid-template-columns: 1fr; }
 }
 
+/* Home page: every Google review in a carousel. The track scrolls sideways
+   (swipe on a phone, arrows or a trackpad on a computer) and snaps to a card. */
+.carousel { display: grid; grid-template-columns: 48px minmax(0, 1fr) 48px; gap: 12px; align-items: center; margin-top: 36px; }
+.reviews.reviews--carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 48px) / 3);
+  grid-template-columns: none;
+  gap: 24px;
+  margin: -16px 0;
+  padding: 16px 0;                 /* keeps the card shadows from being cut off */
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.reviews--carousel::-webkit-scrollbar { display: none; }
+.reviews--carousel .review { scroll-snap-align: start; }
+.carousel__arrow {
+  display: flex; align-items: center; justify-content: center;
+  width: 48px; height: 48px; padding: 0;
+  border-radius: 50%;
+  background: #fff; color: var(--color-green);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.carousel__arrow:hover { background: var(--color-green); color: #fff; }
+.carousel__arrow:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+.carousel__arrow:disabled { opacity: 0.35; cursor: default; }
+.carousel__arrow:disabled:hover { background: #fff; color: var(--color-green); }
+@media screen and (max-width: 1000px) {
+  .reviews.reviews--carousel { grid-auto-columns: calc((100% - 24px) / 2); }
+}
+@media screen and (max-width: 640px) {
+  .carousel { grid-template-columns: 1fr 1fr; gap: 20px 16px; }
+  .reviews.reviews--carousel { grid-row: 1; grid-column: 1 / -1; grid-auto-columns: 100%; }
+  .carousel__arrow--prev { grid-row: 2; grid-column: 1; justify-self: end; }   /* both arrows under the card */
+  .carousel__arrow--next { grid-row: 2; grid-column: 2; justify-self: start; }
+}
+
 /* Wedding day steps */
 .day-flow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; counter-reset: step; }
 .day-flow__step { padding: 28px; background: #fff; border: 2px solid var(--color-grey-light); border-radius: 14px; }
@@ -1427,10 +1466,12 @@ iframe { border-width: 0; }
 
 /* Song list */
 .songs__tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px; max-width: 860px; margin: 0 auto 24px; }
+.songs__searchbox { position: relative; flex: 1 1 320px; display: flex; }
 .songs__search {
-  flex: 1 1 320px;
+  flex: 1 1 auto;
+  width: 100%;
   min-height: 52px;
-  padding: 12px 18px;
+  padding: 12px 52px 12px 18px;
   border: 2px solid var(--color-grey-mid);
   border-radius: 12px;
   font-family: var(--font-secondary);
@@ -1440,11 +1481,16 @@ iframe { border-width: 0; }
   background: #fff;
 }
 .songs__search:focus { outline: none; border-color: var(--color-green); }
+.songs__search::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; display: none; }
+.songs__clear { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; border: 0; border-radius: 50%; background: var(--color-green); color: #fff; font-size: 20px; line-height: 1; cursor: pointer; }
+.songs__clear:hover { background: var(--color-ink); }
+.songs__clear[hidden] { display: none; }
 .songs__count { font-family: var(--font-secondary); font-size: 15px; font-weight: 700; color: #444; white-space: nowrap; }
-.songs__jump { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0 0 40px; padding: 0; list-style: none; }
-.songs__jump a {
+.songs__filters { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0 0 40px; padding: 0; }
+.chip {
   display: inline-block;
   padding: 10px 14px;
+  border: 2px solid transparent;
   border-radius: 999px;
   background: var(--color-grey-light);
   color: var(--color-ink);
@@ -1453,9 +1499,13 @@ iframe { border-width: 0; }
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-decoration: none;
+  cursor: pointer;
 }
-.songs__jump a:hover { background: var(--color-green); color: #fff; }
+.chip:hover { background: var(--color-green); color: #fff; }
+.chip[aria-pressed="true"] { background: var(--color-green); color: #fff; }
+.chip--clear { background: #fff; border-color: var(--color-green); color: var(--color-green); }
+.chip--clear:hover { background: var(--color-green); color: #fff; }
+.chip--clear[hidden] { display: none; }
 .songs__group { margin-bottom: 40px; scroll-margin-top: 100px; }
 .songs__group h2 {
   margin: 0 0 16px;

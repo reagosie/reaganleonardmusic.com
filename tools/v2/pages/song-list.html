@@ -11,7 +11,10 @@
 <section class="section section--cream">
   <div class="container songs">
     <div class="songs__tools">
-      <input class="songs__search" type="search" placeholder="Search by song or artist…" aria-label="Search the song list" autocomplete="off">
+      <div class="songs__searchbox">
+        <input class="songs__search" type="search" placeholder="Search by song or artist…" aria-label="Search the song list" autocomplete="off">
+        <button class="songs__clear" type="button" aria-label="Clear search" hidden>×</button>
+      </div>
       <span class="songs__count">{{song_count}} songs</span>
     </div>
     {{song_chips}}
